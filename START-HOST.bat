@@ -38,7 +38,7 @@ if %errorlevel% neq 0 goto name_push
 echo " --- START SERVER --- "
 
 cd "./Server"
-java -Xms2G -Xmx2G -jar "./paper-1.16.4-325.jar"
+java -Xms2G -Xmx2G -jar "./paper-1.16.4-325.jar" nogui
 cd "../"
 
 echo none>="current-host.txt"
