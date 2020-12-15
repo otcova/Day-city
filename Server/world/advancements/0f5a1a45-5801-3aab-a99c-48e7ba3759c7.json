@@ -4032,6 +4032,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2020-12-15 16:05:48 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_the_recipe": "2020-12-14 21:58:55 +0100"
@@ -4227,6 +4233,12 @@
   "minecraft:recipes/decorations/cyan_carpet": {
     "criteria": {
       "has_the_recipe": "2020-12-14 21:58:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-12-15 16:05:48 +0100"
     },
     "done": true
   },
