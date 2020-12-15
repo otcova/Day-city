@@ -2,3 +2,7 @@
 1608044653032,player decapitated,Fantope,Otms,§f[Iron Axe§f]
 1608044773664,player decapitated,Otms,Fantope,
 1608045118826,player decapitated,Xiangfeng,Fantope,§f[Iron Axe§f]
+1608052309958,player decapitated,Crep,Otms,§f[Stone Axe§f]
+1608058390035,player decapitated,Otcova,Crep,§f[Lapis Lazuli§f]
+1608058589286,mob decapitated,Zombie,Xiangfeng,§f[Iron Sword§f]
+1608061247609,player decapitated,Fantope,,

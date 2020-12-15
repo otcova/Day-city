@@ -99,7 +99,7 @@ must-use:
 #  - WOOD_HOE
 
 # Drop chances are multiplied by this number for each level of looting
-looting-mutliplier: 1.01
+looting-mutliplier: 1.1
 
 # This number is added to the drop chance for each level of looting
 looting-addition: 0.001
