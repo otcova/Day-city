@@ -18,7 +18,7 @@ if "%BAD_HOST%" neq "open" (
 echo Last sesion you don't closed well the host.
 git add .
 git commit -a -m "++"
-git push
+set x=(git pull)
 pause
 goto final
 
