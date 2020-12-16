@@ -1,4 +1,6 @@
+cd "%~dp0"
 echo none>="current-host.txt"
+cd ".."
 
 git add .
 git commit -a -m "+"
