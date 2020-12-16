@@ -11,9 +11,7 @@ if exist "./data/bad-host-close.txt" (
 
 :exist_close
 set /p BAD_HOST=<"./data/bad-host-close.txt"
-echo "BH:"
-echo "<%BAD_HOST%>"
-if "%BAD_HOST%" != "open" (
+if "%BAD_HOST%" neq "open" (
     goto good_close
 )
 :bad_close
