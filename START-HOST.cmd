@@ -16,9 +16,12 @@ if "%BAD_HOST%" neq "open" (
 )
 :bad_close
 echo Last sesion you don't closed well the host.
-git add .
-git commit -a -m "++"
-set x=(git pull)
+set /p HOST_NAME=<"./data/current-host.txt"
+IF "%HOST_NAME%" == "none" (
+    git add .
+    git commit -a -m "++"
+    set x=(git pull)
+)
 pause
 goto final
 
