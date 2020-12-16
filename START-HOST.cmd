@@ -6,7 +6,7 @@ if %errorlevel% neq 0 exit /b %errorlevel%
 git pull
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-set /p HOST_NAME=<"./scripts/current-host.txt"
+set /p HOST_NAME=<"./data/current-host.txt"
 if %errorlevel% neq 0 exit /b %errorlevel%
 
 IF "%HOST_NAME%" == "none" (
@@ -25,8 +25,8 @@ if /I "%c%" EQU "n" exit
 goto :choice
 :host_server
 
-set /p THIS_HOST_NAME=<"./scripts/this-host-name.txt"
-echo %THIS_HOST_NAME%>="./scripts/current-host.txt"
+set /p THIS_HOST_NAME=<"./data/this-host-name.txt"
+echo %THIS_HOST_NAME%>="./data/current-host.txt"
 
 git add .
 git commit -a -m "-"
@@ -36,8 +36,15 @@ if %errorlevel% neq 0 goto name_push
 
 
 echo " --- START SERVER --- "
+cd "%~dp0/Server"
+java -Xms2G -Xmx2G -jar "./paper-1.16.4-325.jar" nogui
 
-cd "./scripts"
-rem wscript.exe invis.vbs open-game-host.cmd
-start open-game-host.cmd
-exit
+cd "%~dp0/data"
+echo none>="current-host.txt"
+
+cd "%~dp0"
+git add .
+git commit -a -m "+"
+:last_push
+git push
+if %errorlevel% neq 0 goto last_push
