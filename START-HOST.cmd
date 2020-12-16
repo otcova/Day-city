@@ -1,35 +1,6 @@
 @echo off
 cd "%~dp0"
 
-rem ---------------
-
-if exist "./data/bad-host-close.txt" (
-    goto exist_close
-) else (
-    goto good_close
-)
-
-:exist_close
-set /p BAD_HOST=<"./data/bad-host-close.txt"
-if "%BAD_HOST%" neq "open" (
-    goto good_close
-)
-:bad_close
-echo Last sesion you don't closed well the host.
-set /p HOST_NAME=<"./data/current-host.txt"
-IF "%HOST_NAME%" == "none" (
-    git add .
-    git commit -a -m "++"
-    set x=(git pull)
-)
-pause
-goto final
-
-:good_close
-echo open>"./data/bad-host-close.txt"
-
-rem ------------------
-
 git restore .
 if %errorlevel% neq 0 goto final
 
@@ -80,4 +51,3 @@ git push
 if %errorlevel% neq 0 goto last_push
 
 :final
-echo closed>"./data/bad-host-close.txt"
