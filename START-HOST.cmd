@@ -4,7 +4,7 @@ cd "%~dp0"
 git restore .
 if %errorlevel% neq 0 goto final
 
-set x=(git pull)
+git pull
 if %errorlevel% neq 0 goto final
 
 set /p HOST_NAME=<"./data/current-host.txt"
