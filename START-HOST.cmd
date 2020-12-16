@@ -12,9 +12,8 @@ if exist "./data/bad-host-close.txt" (
         git add .
         git commit -a -m "++"
         git push
-        echo closed>"./data/bad-host-close.txt"
         pause
-        exit
+        goto final
     )
 )
 
@@ -23,13 +22,13 @@ echo open>"./data/bad-host-close.txt"
 rem ------------------
 
 git restore .
-if %errorlevel% neq 0 exit /b %errorlevel%
+if %errorlevel% neq 0 goto final
 
 set x=(git pull)
-if %errorlevel% neq 0 exit /b %errorlevel%
+if %errorlevel% neq 0 goto final
 
 set /p HOST_NAME=<"./data/current-host.txt"
-if %errorlevel% neq 0 exit /b %errorlevel%
+if %errorlevel% neq 0 goto final
 
 IF "%HOST_NAME%" == "none" (
     echo Anyone is hosting
@@ -37,13 +36,13 @@ IF "%HOST_NAME%" == "none" (
 ) ELSE (
     echo "%HOST_NAME% is hosting"
     pause
-    exit
+    goto final
 )
 
 :choice
 set /P c=Want to host[y/n]? 
 if /I "%c%" EQU "y" goto :host_server
-if /I "%c%" EQU "n" exit
+if /I "%c%" EQU "n" goto final
 goto :choice
 :host_server
 
@@ -71,4 +70,5 @@ git commit -a -m "+"
 git push
 if %errorlevel% neq 0 goto last_push
 
+:final
 echo closed>"./data/bad-host-close.txt"
