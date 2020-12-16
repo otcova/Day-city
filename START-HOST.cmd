@@ -38,7 +38,6 @@ if %errorlevel% neq 0 goto name_push
 echo " --- START SERVER --- "
 
 cd "./scripts"
-rem wscript.exe invis.vbs open-game-host.cmd
-start open-game-host.cmd
+wscript.exe invis.vbs open-game-host.cmd
 
 exit
