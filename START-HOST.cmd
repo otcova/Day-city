@@ -1,4 +1,4 @@
-@echo off
+rem @echo off
 cd "%~dp0"
 
 rem ---------------
@@ -6,7 +6,7 @@ rem ---------------
 if exist "./data/bad-host-close.txt" (
     set /p BAD_HOST=<"./data/bad-host-close.txt"
     echo "BH:"
-    echo "%BAD_HOST%"
+    echo "<%BAD_HOST%>"
     if "%BAD_HOST%" == "open" (
         echo Last sesion you don't closed well the host.
         git add .
