@@ -3,6 +3,9 @@ cd "%~dp0"
 
 rem ---------------
 
+set /p BAD_HOST=<"./data/bad-host-close.txt"
+echo "a<%BAD_HOST%>"
+
 if exist "./data/bad-host-close.txt" (
     set /p BAD_HOST=<"./data/bad-host-close.txt"
     echo "BH:"
