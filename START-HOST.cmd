@@ -1,4 +1,4 @@
-cd "%~dp0"
+cd "%~dp0/scripts"
 
 git restore .
 if %errorlevel% neq 0 exit /b %errorlevel%
@@ -15,13 +15,13 @@ IF "%HOST_NAME%" == "none" (
 ) ELSE (
     echo "%HOST_NAME% is hosting"
     pause
-    goto finish
+    exit
 )
 
 :choice
 set /P c=Want to host[y/n]? 
 if /I "%c%" EQU "y" goto :host_server
-if /I "%c%" EQU "n" goto finish
+if /I "%c%" EQU "n" exit
 goto :choice
 :host_server
 
@@ -37,16 +37,6 @@ if %errorlevel% neq 0 goto name_push
 
 echo " --- START SERVER --- "
 
-cd "./Server"
-java -Xms2G -Xmx2G -jar "./paper-1.16.4-325.jar" nogui
-cd "../"
+wscript.exe invis.vbs open-game-host.cmd
 
-echo none>="current-host.txt"
-
-git add .
-git commit -a -m "+"
-:last_push
-git push
-if %errorlevel% neq 0 goto last_push
-
-:finish
+exit
