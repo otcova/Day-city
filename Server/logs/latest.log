@@ -1,364 +1,1488 @@
-[16:45:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:45:54] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[16:45:55] [Worker-Main-2/INFO]: Loaded 7 recipes
-[16:45:56] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[16:45:56] [Server thread/INFO]: Loading properties
-[16:45:56] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[16:45:56] [Server thread/INFO]: Debug logging is disabled
-[16:45:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:45:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:45:57] [Server thread/INFO]: Default game type: SURVIVAL
-[16:45:57] [Server thread/INFO]: Generating keypair
-[16:45:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:45:57] [Server thread/INFO]: Using default channel type
-[16:45:59] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:46:05] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
-[16:46:06] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
-[16:46:06] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
-[16:46:06] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
-[16:46:06] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
-[16:46:06] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
-[16:46:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:46:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
-[16:46:07] [Server thread/INFO]:         __    
-[16:46:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
-[16:46:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:46:07] [Server thread/INFO]: 
-[16:46:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:46:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:46:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:46:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:46:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4186ms)
-[16:46:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:46:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:46:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:46:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:46:11] [Server thread/INFO]: Preparing level "world"
-[16:46:11] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:46:11] [Server thread/INFO]: View Distance: 10
-[16:46:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:11] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:46:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:46:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:11] [Server thread/INFO]: Mob Spawn Range: 8
-[16:46:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:46:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:46:11] [Server thread/INFO]: View Distance: 10
-[16:46:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:11] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:46:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:46:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:11] [Server thread/INFO]: Mob Spawn Range: 8
-[16:46:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:46:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:46:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:46:12] [Server thread/INFO]: View Distance: 10
-[16:46:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:12] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:46:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:46:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:12] [Server thread/INFO]: Mob Spawn Range: 8
-[16:46:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:46:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:46:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:46:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[16:46:12] [Server thread/INFO]: Time elapsed: 553 ms
-[16:46:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:46:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[16:46:12] [Server thread/INFO]: Time elapsed: 100 ms
-[16:46:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:46:13] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[16:46:13] [Server thread/INFO]: Time elapsed: 280 ms
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
-[16:46:13] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
-[16:46:13] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
-[16:46:13] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
-[16:46:13] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.4.5
-[16:46:13] [Thread-13/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
-[16:46:13] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
-[16:46:13] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
-[16:46:14] [Server thread/INFO]: Running delayed init tasks
-[16:46:14] [Server thread/INFO]: Done (17.366s)! For help, type "help"
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_261
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[16:46:14] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[16:46:14] [Server thread/INFO]: Timings Reset
-[16:46:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@2f90e284[id=4eef1e55-b016-3afe-9455-69c4a08c7a9a,name=Crep,properties={},legacy=false] (/2.152.178.14:55517) lost connection: Disconnected
-[16:46:16] [User Authenticator #1/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[16:46:31] [User Authenticator #1/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[16:46:32] [Server thread/INFO]: Crep joined the game
-[16:46:32] [Server thread/INFO]: Crep[/2.152.178.14:55524] logged in with entity id 160 at ([world]-813.3470739013052, 92.0, -368.56310803196436)
-[16:46:38] [Server thread/INFO]: [Server] si+
-[16:47:23] [Server thread/INFO]: [Server] El servidor se reiniciara en 10 min
-[16:47:39] [Server thread/INFO]: [Server] ñaaaa   es broma
-[16:48:30] [Server thread/INFO]: [Server] bye
-[17:00:50] [Server thread/INFO]: Crep lost connection: Disconnected
-[17:00:50] [Server thread/INFO]: Crep left the game
-[17:00:55] [User Authenticator #2/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[17:00:55] [Server thread/INFO]: Crep joined the game
-[17:00:56] [Server thread/INFO]: Crep[/2.152.178.14:55535] logged in with entity id 2509 at ([world]-894.0747822478124, 66.0, -346.9992969843566)
-[17:01:36] [Server thread/INFO]: Crep lost connection: Disconnected
-[17:01:36] [Server thread/INFO]: Crep left the game
-[17:36:58] [User Authenticator #3/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
-[17:36:59] [Server thread/INFO]: Xiangfeng joined the game
-[17:36:59] [Server thread/INFO]: Xiangfeng[/81.38.233.233:50284] logged in with entity id 2590 at ([world]719.8252641583697, 72.0, -277.69999998807907)
-[18:06:11] [Server thread/INFO]: Xiangfeng was slain by Enderman
-[18:09:57] [Server thread/INFO]: [Server] El servidor se reiniciara en 10 min
-[18:10:17] [Server thread/INFO]: [Server] ñaaaa   es broma
-[18:10:26] [Async Chat Thread - #0/INFO]: <Xiangfeng> entras?
-[18:15:08] [Server thread/INFO]: Xiangfeng was blown up by Creeper
-[18:15:55] [Server thread/INFO]: [Server] F
-[18:17:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
-[18:17:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[18:17:35] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[18:17:35] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:17:35] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[18:17:45] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:17:45] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[18:17:45] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
-[18:17:45] [Paper Watchdog Thread/ERROR]: 	Stack:
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.Spliterator.getExactSizeIfKnown(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.forEach(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline$7$1.accept(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ChunkCoordIntPair$1.tryAdvance(ChunkCoordIntPair.java:149)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.VillagePlace.c(VillagePlace.java:97)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PathfinderGoalMoveThroughVillage.a(SourceFile:68)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PathfinderGoalMoveThroughVillage$$Lambda$5389/1011448098.applyAsDouble(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.RandomPositionGenerator.a(RandomPositionGenerator.java:132)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.RandomPositionGenerator.a(RandomPositionGenerator.java:28)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PathfinderGoalMoveThroughVillage.a(SourceFile:64)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PathfinderGoalWrapped.a(PathfinderGoalWrapped.java:23)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PathfinderGoalSelector.doTick(PathfinderGoalSelector.java:129)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityInsentient.inactiveTick(EntityInsentient.java:136)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:847)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4564/1739408614.accept(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.a(World.java:884)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:530)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3055/697549160.run(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
-[18:17:45] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:17:45] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[18:17:45] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:17:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12622ms or 252 ticks behind
-[18:18:25] [User Authenticator #4/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
-[18:18:33] [Server thread/INFO]: Otcova joined the game
-[18:18:33] [Server thread/INFO]: Otcova[/127.0.0.1:63756] logged in with entity id 8364 at ([world]-1045.0231954142405, 64.0, -216.59788684317542)
-[18:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6191ms or 123 ticks behind
-[18:19:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5111ms or 102 ticks behind
-[18:20:26] [Async Chat Thread - #1/INFO]: <Otcova> COM?
-[18:21:01] [Async Chat Thread - #1/INFO]: <Otcova> no en el server nomes estem nosaltres dos, mira al tab
-[18:21:14] [Async Chat Thread - #1/INFO]: <Otcova> no saps llegir
-[18:21:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5449ms or 108 ticks behind
-[18:21:52] [Async Chat Thread - #1/INFO]: <Otcova> no saps angles
-[18:22:05] [Async Chat Thread - #1/INFO]: <Otcova> anyone = ningu
-[18:22:18] [Async Chat Thread - #1/INFO]: <Otcova> ningu ha entrat al joc
-[18:24:03] [Async Chat Thread - #2/INFO]: <Otcova> que li pasa a la colmena
-[18:24:18] [Async Chat Thread - #2/INFO]: <Otcova> generar?
-[18:24:37] [Async Chat Thread - #2/INFO]: <Otcova> aaaa
-[18:24:40] [Async Chat Thread - #2/INFO]: <Otcova> que guai
-[18:26:50] [Async Chat Thread - #3/INFO]: <Otcova> a la teva aldea hi havia torre amb mesa de pociones
-[18:26:52] [Async Chat Thread - #3/INFO]: <Otcova> ?
-[18:26:57] [Async Chat Thread - #3/INFO]: <Otcova> F
-[18:27:14] [Async Chat Thread - #3/INFO]: <Otcova> el cleric ens donaria enderpels
-[18:27:34] [Async Chat Thread - #3/INFO]: <Otcova> no creguis
-[18:28:58] [Async Chat Thread - #4/INFO]: <Otcova> vinc
-[18:29:01] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[18:29:04] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[18:29:28] [Async Chat Thread - #4/INFO]: <Otcova> si
-[18:29:35] [Async Chat Thread - #4/INFO]: <Otcova> ok
-[18:30:54] [Async Chat Thread - #5/INFO]: <Otcova> on estan els aldeanos?
-[18:31:01] [Async Chat Thread - #5/INFO]: <Otcova> ok
-[18:31:04] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[18:31:09] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[18:31:35] [Async Chat Thread - #5/INFO]: <Otcova> tinc més de 2x64 de tronc
-[18:33:06] [Async Chat Thread - #6/INFO]: <Otcova> estava jo tradean
-[18:33:19] [Async Chat Thread - #6/INFO]: <Otcova> de esmeralda?
-[18:33:36] [Server thread/INFO]: Otcova issued server command: /home
-[18:33:58] [Async Chat Thread - #6/INFO]: <Otcova> JO ET PORTU BAMBU
-[18:34:06] [Async Chat Thread - #6/INFO]: <Otcova> PERDO, CAÑA
-[18:34:22] [Async Chat Thread - #6/INFO]: <Otcova> NO
-[18:34:29] [Async Chat Thread - #6/INFO]: <Otcova> A CASA MEVA
-[18:34:37] [Async Chat Thread - #6/INFO]: <Otcova> "CASA"
-[18:35:14] [Async Chat Thread - #6/INFO]: <Otcova> FALTA EL ADRIAN PER MORIR
-[18:35:35] [Async Chat Thread - #6/INFO]: <Otcova> EL PODRIAM AJUDAR A FER-HO
-[18:36:27] [Async Chat Thread - #6/INFO]: <Otcova> ESTIC AMB UN ENDERMAN
-[18:36:33] [Async Chat Thread - #6/INFO]: <Otcova> ESPERA I ET RESPONC
-[18:36:51] [Async Chat Thread - #6/INFO]: <Otcova> SOC TOP
-[18:38:40] [Async Chat Thread - #7/INFO]: <Otcova> OK
-[18:39:27] [Async Chat Thread - #7/INFO]: <Otcova> FES UN LLIBRE
-[18:39:39] [Async Chat Thread - #7/INFO]: <Otcova> LES DOS
-[18:40:46] [Async Chat Thread - #8/INFO]: <Otcova> com?
-[18:40:58] [Async Chat Thread - #8/INFO]: <Otcova> has de esperar
-[18:41:16] [Server thread/INFO]: Otcova issued server command: /home
-[18:41:31] [Async Chat Thread - #8/INFO]: <Otcova> crec que no
-[18:41:48] [Async Chat Thread - #8/INFO]: <Otcova> pero els blockes de mel son un block vastant especial
-[18:42:22] [Async Chat Thread - #8/INFO]: <Otcova> ja, ho vas ensenyar
-[18:42:46] [Async Chat Thread - #8/INFO]: <Otcova> recursos humanos
-[18:43:09] [Async Chat Thread - #8/INFO]: <Otcova> ARA NO TINC LLIT
-[18:44:11] [Async Chat Thread - #9/INFO]: <Otcova> tambe pots dormir tu
-[18:44:34] [Async Chat Thread - #9/INFO]: <Otcova> EL MEU GOS ESTA A LA CANTONADA DEL ACANTILAT
-[18:44:48] [Async Chat Thread - #9/INFO]: <Otcova> NO
-[18:44:54] [Async Chat Thread - #9/INFO]: <Otcova> ESTIC A 'CASA'
-[18:45:03] [Async Chat Thread - #9/INFO]: <Otcova> CUINANT
-[18:45:30] [Async Chat Thread - #9/INFO]: <Otcova> EL QUE?
-[18:45:31] [Server thread/INFO]: Xiangfeng has made the advancement [Fishy Business]
-[18:45:48] [Async Chat Thread - #9/INFO]: <Otcova> ES SORT
-[18:45:57] [Async Chat Thread - #9/INFO]: <Otcova> TRIGA ENTRE 5 45 SEGONS
-[18:47:10] [Async Chat Thread - #10/INFO]: <Otcova> HO ESTAS CRONOMETRANT?
-[18:48:13] [Server thread/INFO]: Otcova has made the advancement [Take Aim]
-[18:48:31] [Server thread/INFO]: Xiangfeng has made the advancement [Take Aim]
-[18:48:33] [Async Chat Thread - #11/INFO]: <Otcova> on estas?
-[18:48:55] [Async Chat Thread - #11/INFO]: <Otcova> el poble tenen llit
-[18:49:18] [Async Chat Thread - #11/INFO]: <Otcova> ja es de matinada
-[18:50:53] [Server thread/INFO]: Nothing changed. The player is not an operator
-[18:50:58] [Server thread/INFO]: Nothing changed. The player is not an operator
-[18:51:03] [Server thread/INFO]: Made Otcova no longer a server operator
-[18:58:05] [Async Chat Thread - #12/INFO]: <Otcova> de que?
-[18:58:17] [Async Chat Thread - #12/INFO]: <Otcova> angles academia?
-[18:58:34] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
-[18:58:34] [Server thread/INFO]: Xiangfeng left the game
-[19:01:10] [Server thread/INFO]: Otcova has made the advancement [Diamonds!]
-[19:01:51] [Server thread/INFO]: Otcova issued server command: /home
-[19:04:01] [Async Chat Thread - #13/INFO]: <Otcova> hi
-[19:04:15] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:04:25] [Server thread/INFO]: [Server] hi
-[19:04:41] [Server thread/INFO]: [Server] hi
-[19:04:50] [Server thread/INFO]: [Server] hello
-[19:04:57] [Server thread/INFO]: [Server] hola
-[19:05:08] [Server thread/INFO]: [Server] ' hello
-[19:05:17] [Async Chat Thread - #14/INFO]: <Otcova> hola
-[19:15:10] [Server thread/INFO]: Otcova lost connection: Disconnected
-[19:15:10] [Server thread/INFO]: Otcova left the game
-[19:15:20] [Server thread/INFO]: Stopping the server
-[19:15:20] [Server thread/INFO]: Stopping server
-[19:15:20] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
-[19:15:20] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
-[19:15:20] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
-[19:15:20] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
-[19:15:20] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
-[19:15:20] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:15:20] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:15:21] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:15:22] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
-[19:15:22] [Server thread/INFO]: Saving players
-[19:15:22] [Server thread/INFO]: Saving worlds
-[19:15:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:15:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:15:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:15:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:15:25] [Server thread/INFO]: Flushing Chunk IO
-[19:15:25] [Server thread/INFO]: Closing Thread Pool
-[19:15:25] [Server thread/INFO]: Closing Server
+[14:58:10] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:58:11] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:58:12] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[14:58:12] [Server thread/INFO]: Loading properties
+[14:58:13] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[14:58:13] [Server thread/INFO]: Debug logging is disabled
+[14:58:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:58:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:58:13] [Server thread/INFO]: Default game type: SURVIVAL
+[14:58:13] [Server thread/INFO]: Generating keypair
+[14:58:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:58:14] [Server thread/INFO]: Using default channel type
+[14:58:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:58:23] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[14:58:23] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[14:58:23] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[14:58:27] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[14:58:27] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
+[14:58:27] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[14:58:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:58:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[14:58:28] [Server thread/INFO]:         __    
+[14:58:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[14:58:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:58:28] [Server thread/INFO]: 
+[14:58:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:58:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:58:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:58:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:58:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 18185ms)
+[14:58:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:58:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:58:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:58:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:58:45] [Server thread/INFO]: Preparing level "world"
+[14:58:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:58:45] [Server thread/INFO]: View Distance: 10
+[14:58:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:58:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:58:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:58:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:58:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:58:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:58:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:58:45] [Server thread/INFO]: Mob Spawn Range: 8
+[14:58:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:58:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:58:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:58:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:58:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:58:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:58:45] [Server thread/INFO]: Max TNT Explosions: 100
+[14:58:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:58:46] [Server thread/INFO]: View Distance: 10
+[14:58:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:58:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:58:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:58:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:58:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:58:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:58:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:58:46] [Server thread/INFO]: Mob Spawn Range: 8
+[14:58:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:58:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:58:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:58:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:58:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:58:46] [Server thread/INFO]: Max TNT Explosions: 100
+[14:58:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:58:46] [Server thread/INFO]: View Distance: 10
+[14:58:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:58:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:58:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:58:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:58:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:58:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:58:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:58:46] [Server thread/INFO]: Mob Spawn Range: 8
+[14:58:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:58:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:58:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:58:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:58:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:58:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:58:46] [Server thread/INFO]: Max TNT Explosions: 100
+[14:58:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:58:47] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[14:58:47] [Server thread/INFO]: Time elapsed: 605 ms
+[14:58:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:58:47] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[14:58:47] [Server thread/INFO]: Time elapsed: 101 ms
+[14:58:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:58:47] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[14:58:47] [Server thread/INFO]: Time elapsed: 47 ms
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[14:58:47] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[14:58:47] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
+[14:58:47] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
+[14:58:47] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.4.5
+[14:58:48] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
+[14:58:48] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[14:58:48] [Server thread/INFO]: Running delayed init tasks
+[14:58:48] [Server thread/INFO]: Done (35.754s)! For help, type "help"
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_261
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[14:58:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:58:48] [Server thread/INFO]: Timings Reset
+[14:58:48] [Thread-13/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
+[16:12:51] [User Authenticator #1/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[16:12:52] [Server thread/INFO]: Xiangfeng joined the game
+[16:12:52] [Server thread/INFO]: Xiangfeng[/81.38.233.233:63074] logged in with entity id 159 at ([world]721.6999999880791, 74.0, -290.9764680550018)
+[16:22:49] [Server thread/INFO]: [Server] OOO
+[16:22:57] [Async Chat Thread - #0/INFO]: <Xiangfeng> entras?
+[16:29:12] [User Authenticator #2/WARN]: [LuckPerms] Processing login for Otcova took 1099ms.
+[16:29:12] [User Authenticator #2/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
+[16:29:16] [Server thread/INFO]: Xiangfeng has made the advancement [Best Friends Forever]
+[16:29:16] [Server thread/INFO]: Otcova joined the game
+[16:29:17] [Server thread/INFO]: Otcova[/127.0.0.1:49651] logged in with entity id 2740 at ([world]106.63783244854818, 141.0, -368.69127009300223)
+[16:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5452ms or 109 ticks behind
+[16:33:57] [Server thread/INFO]: Otcova issued server command: /home
+[16:35:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:35:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:35:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:35:53] [Server thread/INFO]: --------- Help: Index ---------------------------
+[16:35:53] [Server thread/INFO]: Use /help [n] to get page n of help.
+[16:35:53] [Server thread/INFO]: Aliases: Lists command aliases
+[16:35:53] [Server thread/INFO]: BetterSleeping3: All commands for BetterSleeping3
+[16:35:53] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[16:35:53] [Server thread/INFO]: DropHeads: All commands for DropHeads
+[16:35:53] [Server thread/INFO]: LuckPerms: All commands for LuckPerms
+[16:35:53] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[16:35:53] [Server thread/INFO]: PixelTpa: All commands for PixelTpa
+[16:35:53] [Server thread/INFO]: SetHomes: All commands for SetHomes
+[16:35:53] [Server thread/INFO]: /advancement: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /attribute: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /ban: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /banlist: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /bettersleeping: See all BetterSleeping commands
+[16:35:53] [Server thread/INFO]: /blacklist: Blacklist of worlds to disallow home setting in
+[16:35:53] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /clear: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /clone: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /data: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /datapack: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /debug: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /debug_all_heads: Place all heads into the world around the player
+[16:35:53] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /delhome: Deletes a home from the list of players homes.
+[16:35:53] [Server thread/INFO]: /delhome-of: Gives a player the ability to delete a home from the list of any players home.
+[16:35:53] [Server thread/INFO]: /deop: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /droprate: Check the drop rate for a head
+[16:35:53] [Server thread/INFO]: /effect: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /enchant: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /execute: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /experience: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /fill: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /forceload: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /function: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /give: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /help: Shows the help menu
+[16:35:53] [Server thread/INFO]: /home: Teleports a player to their home.
+[16:35:53] [Server thread/INFO]: /home-of: Teleports the player sending the command to any players home.
+[16:35:53] [Server thread/INFO]: /homes: Lists all of a players homes.
+[16:35:53] [Server thread/INFO]: /kick: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /kill: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /list: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /locate: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /locatebiome: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /loot: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /luckperms: Manage permissions
+[16:35:53] [Server thread/INFO]: /me: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:lp: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:lp: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:luckperms: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:perm: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:permission: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:permissions: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:luckperms:perms: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:perm: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:permission: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:permissions: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:perms: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /msg: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /mspt: View server tick times
+[16:35:53] [Server thread/INFO]: /op: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /paper: Paper related commands
+[16:35:53] [Server thread/INFO]: /pardon: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /particle: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /playsound: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[16:35:53] [Server thread/INFO]: /recipe: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[16:35:53] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /restart: Restarts the server
+[16:35:53] [Server thread/INFO]: /save-all: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /save-off: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /save-on: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /say: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /schedule: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /seed: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /setblock: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /sethome: Sets a players home at the standing location.
+[16:35:53] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /setmax: Set the max number of homes allowed for a group
+[16:35:53] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /spawnhead: Get a player or mob head
+[16:35:53] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /spectate: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /spigot: Spigot related commands
+[16:35:53] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /stop: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /strike: Strike fury into your enemies with your wand.
+[16:35:53] [Server thread/INFO]: /summon: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tag: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /team: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /teleport: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tell: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /time: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[16:35:53] [Server thread/INFO]: /title: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tm: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tp: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /tpa: Send a teleport request to a player on the server.
+[16:35:53] [Server thread/INFO]: /tpaccept: Accept a teleport request.
+[16:35:53] [Server thread/INFO]: /tpdeny: Deny a teleport request.
+[16:35:53] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[16:35:53] [Server thread/INFO]: /trigger: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /uhome: Allows a player to update their home by home name
+[16:35:53] [Server thread/INFO]: /uhome-of: Gives a player the ability to update any players home
+[16:35:53] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[16:35:53] [Server thread/INFO]: /w: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /weather: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[16:35:53] [Server thread/INFO]: /xp: A Mojang provided command.
+[16:36:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:36:03] [Server thread/INFO]: recipe<--[HERE]
+[16:36:12] [Server thread/INFO]: Incorrect argument for command
+[16:36:12] [Server thread/INFO]: recipe learn<--[HERE]
+[16:36:18] [Server thread/INFO]: Incorrect argument for command
+[16:36:18] [Server thread/INFO]: recipe ?<--[HERE]
+[16:36:22] [Server thread/INFO]: Incorrect argument for command
+[16:36:22] [Server thread/INFO]: recipe /?<--[HERE]
+[16:36:41] [Server thread/INFO]: Made Otms a server operator
+[16:40:52] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[16:40:54] [Server thread/INFO]: Xiangfeng issued server command: /tpa
+[16:40:57] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[16:43:09] [Server thread/INFO]: Made Otcova a server operator
+[16:43:13] [Server thread/INFO]: Made Otms no longer a server operator
+[16:43:35] [Server thread/INFO]: Otcova issued server command: /recipe give Otcova *
+[16:43:36] [Server thread/INFO]: [Otcova: Unlocked 859 recipes for Otcova]
+[16:43:47] [Server thread/INFO]: Made Otcova no longer a server operator
+[16:49:07] [Server thread/INFO]: Otcova has made the advancement [Ice Bucket Challenge]
+[17:02:29] [Server thread/INFO]: Otcova issued server command: /home
+[17:04:11] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:04:13] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:07:36] [Server thread/INFO]: Otcova issued server command: /home
+[17:08:53] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:08:56] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:10:36] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
+[17:10:37] [Server thread/INFO]: Xiangfeng left the game
+[17:15:31] [User Authenticator #3/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[17:15:31] [Server thread/INFO]: Xiangfeng joined the game
+[17:15:31] [Server thread/INFO]: Xiangfeng[/81.38.233.233:63280] logged in with entity id 14460 at ([world]716.0530951789259, 70.0, -327.46305105160906)
+[17:16:59] [Server thread/INFO]: Xiangfeng was slain by Zombie
+[17:17:07] [Server thread/INFO]: Otcova was shot by Skeleton
+[17:17:18] [Server thread/INFO]: Xiangfeng was slain by Zombie
+[17:17:32] [Server thread/INFO]: Xiangfeng was impaled by Drowned
+[17:17:36] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
+[17:17:36] [Server thread/INFO]: Xiangfeng left the game
+[17:17:55] [User Authenticator #4/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[17:17:55] [Server thread/INFO]: Xiangfeng joined the game
+[17:17:55] [Server thread/INFO]: Xiangfeng[/81.38.233.233:63289] logged in with entity id 14928 at ([world]719.6958648611434, 70.0, -290.30000001192093)
+[17:18:11] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:18:15] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:18:45] [Server thread/INFO]: Xiangfeng was slain by Zombie
+[17:19:24] [Server thread/INFO]: Otcova was slain by Zombie
+[17:19:28] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:19:51] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:19:54] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:20:20] [Server thread/INFO]: Villager EntityVillager['Villager'/14950, uuid='c4c1f85e-71e1-496c-be0b-eed5376511f6', l='ServerLevel[world]', x=710.57, y=70.00, z=-328.38, cx=44, cz=-21, tl=211809, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[17:21:12] [Server thread/INFO]: Otcova was shot by Skeleton
+[17:21:24] [Server thread/WARN]: Xiangfeng moved too quickly! -9.9098725449104,-0.023088109101550458,-3.618011198146405
+[17:21:39] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:21:41] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:23:34] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
+[17:23:35] [Server thread/INFO]: Xiangfeng left the game
+[17:23:54] [User Authenticator #5/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[17:23:54] [Server thread/INFO]: Xiangfeng joined the game
+[17:23:54] [Server thread/INFO]: Xiangfeng[/81.38.233.233:63301] logged in with entity id 16565 at ([world]712.622939671898, 75.0, -311.69231688588184)
+[17:25:16] [Server thread/INFO]: Xiangfeng was blown up by Creeper
+[17:32:06] [Server thread/INFO]: Otcova issued server command: /home
+[17:33:52] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:33:55] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[17:39:26] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:45:42] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:14] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:16] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:17] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:18] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:19] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[17:46:24] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[18:01:33] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[18:02:56] [Server thread/INFO]: Otcova has made the advancement [Getting an Upgrade]
+[18:04:13] [Server thread/INFO]: Otcova has made the advancement [Not Today, Thank You]
+[18:08:20] [Server thread/INFO]: [DropHeads] Cow was decapitated by Xiangfeng
+[18:08:21] [Server thread/INFO]: [DropHeads] Dropped Head: COW
+Killer: PLAYER, Weapon: IRON_AXE
+Raw chance: 0.4%
+Multipliers >> Weapon: 60.0%, 
+Final drop chance: 0.64%
+[18:09:34] [Server thread/INFO]: Otcova issued server command: /home
+[18:13:08] [Server thread/INFO]: Xiangfeng has made the advancement [Hot Stuff]
+[18:13:50] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[18:14:32] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[18:14:42] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[18:16:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:40] [Paper Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Paper bug.
+[18:16:40] [Paper Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[18:16:40] [Paper Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[18:16:40] [Paper Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[18:16:40] [Paper Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[18:16:40] [Paper Watchdog Thread/ERROR]: If you are unsure or still think this is a Paper bug, please report this to https://github.com/PaperMC/Paper/issues
+[18:16:40] [Paper Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[18:16:40] [Paper Watchdog Thread/ERROR]: Paper version: git-Paper-325 (MC: 1.16.4)
+[18:16:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:16:40] [Server thread/INFO]: Otcova lost connection: Disconnected
+[18:16:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:16:40] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.setPriority0(Native Method)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.setPriority(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.init(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.init(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.<init>(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.<init>(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool$DefaultForkJoinWorkerThreadFactory.newThread(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.createWorker(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.tryAddWorker(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.signalWork(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.externalPush(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.execute(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.scheduleDrainBuffers(BoundedLocalCache.java:1420)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.scheduleAfterWrite(BoundedLocalCache.java:1387)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.afterWrite(BoundedLocalCache.java:1357)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.put(BoundedLocalCache.java:2008)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.put(BoundedLocalCache.java:1956)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.util.Collections$SetFromMap.add(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.ForwardingCollection.add(ForwardingCollection.java:89)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.model.manager.user.UserHousekeeper.registerUsage(UserHousekeeper.java:57)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.plugin.util.AbstractConnectionListener.handleDisconnect(AbstractConnectionListener.java:118)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.bukkit.listeners.BukkitConnectionListener.onPlayerQuit(BukkitConnectionListener.java:234)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor5.execute(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$$Lambda$3951/623896453.execute(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.disconnect(PlayerList.java:513)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1680)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager.handleDisconnection(NetworkManager.java:500)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:165)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1381)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3052/423328661.run(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:40] [Paper Watchdog Thread/ERROR]: Entire Thread Dump:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-159
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 293 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-158
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 292 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-157
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 291 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-156
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 290 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-155
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 289 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-154
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 288 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-153
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 287 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-152
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 286 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-151
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 285 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-150
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 284 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-149
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 283 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-148
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 282 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-147
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 281 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-146
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 280 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-145
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 279 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-144
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 278 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-143
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 277 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-142
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 276 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-141
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 275 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-140
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 274 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-139
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 273 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-138
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 272 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-137
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 271 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-136
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 270 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-135
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 269 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-134
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 268 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-133
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 267 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-132
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 266 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-131
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 265 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-130
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 264 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-129
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 263 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-128
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 262 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-127
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 261 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-126
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 260 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-125
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 259 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-124
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 258 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 142 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:java.util.zip.ZipFile.getEntry(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.zip.ZipFile.getEntryBytes(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.zip.ZipFile.getZipEntry(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.zip.ZipFile.getEntry(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.jar.JarFile.getEntry(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.jar.JarFile.getJarEntry(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.URLClassPath$JarLoader.getResource(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.URLClassPath.getResource(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader$1.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader$1.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.security.AccessController.doPrivileged(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader.findClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:945)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:360)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:901)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1396)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:199)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:133)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.ChannelDuplexHandler.flush(ChannelDuplexHandler.java:117)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:802)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1071)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:300)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager.lambda$b$6(NetworkManager.java:303)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager$$Lambda$4982/1219291083.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 123 | Suspended: false | Native: true | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 122 | Suspended: false | Native: true | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: world_the_end - Light
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 81 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: world_nether - Light
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 80 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Object Cleaner
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 72 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: world - Light
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Craft Async Scheduler Management Thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 65 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Timer-1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 61 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper RegionFile IO Thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 59 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: MVStore background writer nio:C:/Users/PORTATIL/Desktop/Day-city/Server/plugins/LuckPerms/luckperms-h2.mv.db
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 53 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3116)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: mysql-cj-abandoned-connection-cleanup
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 51 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:80)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Thread-9
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 49 | Suspended: false | Native: true | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.unpark(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.unpark(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack$SNode.tryMatch(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.offer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.plugin.scheduler.AbstractJavaScheduler$ErrorReportingExecutor.execute(AbstractJavaScheduler.java:110)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.plugin.scheduler.AbstractJavaScheduler.lambda$asyncRepeating$3(AbstractJavaScheduler.java:77)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.plugin.scheduler.AbstractJavaScheduler$$Lambda$3874/493391610.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-26
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 46 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-8
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 44 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-15
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingDeque.takeFirst(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingDeque.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.nio.fs.AbstractWatchService.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.AbstractFileWatcher.runEventProcessingLoop(AbstractFileWatcher.java:128)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher.lambda$new$0(FileWatcher.java:61)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher$$Lambda$3952/1024032654.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-22
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-29
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 41 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-4
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-11
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-18
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-25
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: BLOCKED
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.misc.Resource.cachedInputStream(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.jar.JarFile.getInputStream(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.URLClassPath$JarLoader$2.getInputStream(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Resource.cachedInputStream(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Resource.getByteBuffer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader.defineClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader.access$100(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader$1.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader$1.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.security.AccessController.doPrivileged(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.net.URLClassLoader.findClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ClassLoader.loadClass(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.timeout.IdleStateHandler$ReaderIdleTimeoutTask.run(IdleStateHandler.java:493)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.timeout.IdleStateHandler$AbstractIdleTask.run(IdleStateHandler.java:466)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:125)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: ObjectCleanerThread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Timer-0
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 34 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Urgent Task Thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #2
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #0
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Watchdog Thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:127)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server console handler
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingPumpReader.wait(NonBlockingPumpReader.java:55)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingPumpReader.read(NonBlockingPumpReader.java:101)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:165)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ThreadLocal$ThreadLocalMap.<init>(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ThreadLocal.createInheritedMap(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.init(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.init(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.<init>(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.<init>(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool$DefaultForkJoinWorkerThreadFactory.newThread(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.createWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.tryAddWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.signalWork(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.externalPush(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ForkJoinPool.execute(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.scheduleDrainBuffers(BoundedLocalCache.java:1420)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.scheduleAfterWrite(BoundedLocalCache.java:1387)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.afterWrite(BoundedLocalCache.java:1357)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.put(BoundedLocalCache.java:2008)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.put(BoundedLocalCache.java:1956)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.Collections$SetFromMap.add(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.ForwardingCollection.add(ForwardingCollection.java:89)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.model.manager.user.UserHousekeeper.registerUsage(UserHousekeeper.java:57)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.plugin.util.AbstractConnectionListener.handleDisconnect(AbstractConnectionListener.java:118)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.bukkit.listeners.BukkitConnectionListener.onPlayerQuit(BukkitConnectionListener.java:234)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor5.execute(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$$Lambda$3951/623896453.execute(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerList.disconnect(PlayerList.java:513)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1680)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.NetworkManager.handleDisconnection(NetworkManager.java:500)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:165)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1381)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3052/423328661.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-2
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Timer hack thread
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: TIMED_WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.SystemUtils$5.run(SystemUtils.java:465)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: WindowsStreamPump
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.WaitForSingleObject(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.jansi.win.JansiWinSysTerminal.processConsoleInput(JansiWinSysTerminal.java:112)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal.pump(AbstractWindowsTerminal.java:458)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$12/48914743.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Log4j2-TF-1-AsyncLogger[AsyncContext@5c647e05]-1
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:org.jline.terminal.impl.AbstractWindowsConsoleWriter.write(AbstractWindowsConsoleWriter.java:27)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:java.io.Writer.write(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:java.io.PrintWriter.write(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		Locked on:net.minecrell.terminalconsole.TerminalConsoleAppender.print(TerminalConsoleAppender.java:260)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.WriteConsoleW(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.jansi.win.JansiWinConsoleWriter.writeConsole(JansiWinConsoleWriter.java:27)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsConsoleWriter.write(AbstractWindowsConsoleWriter.java:27)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.io.Writer.write(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.io.PrintWriter.write(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.io.PrintWriter.write(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.io.PrintWriter.print(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.printAbove(LineReaderImpl.java:698)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.TerminalConsoleAppender.print(TerminalConsoleAppender.java:260)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:253)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:79)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.async.AsyncLogger.actualAsyncLog(AsyncLogger.java:337)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.async.RingBufferLogEvent.execute(RingBufferLogEvent.java:161)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.async.RingBufferLogEventHandler.onEvent(RingBufferLogEventHandler.java:45)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.async.RingBufferLogEventHandler.onEvent(RingBufferLogEventHandler.java:29)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:168)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Finalizer
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: RUNNABLE
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.interruptIdleWorkers(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.interruptIdleWorkers(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.shutdown(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor.shutdown(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.finalize(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.System$2.invokeFinalize(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer.access$100(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [Paper Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[18:16:41] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Reference.tryHandlePending(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+[18:16:41] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:16:41] [User Authenticator #6/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[18:16:41] [Server thread/INFO]: Otcova left the game
+[18:16:41] [Server thread/INFO]: Xiangfeng lost connection: Timed out
+[18:16:41] [Server thread/INFO]: Xiangfeng left the game
+[18:16:42] [Paper Watchdog Thread/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
+[18:16:42] [Server thread/ERROR]: Main thread terminated by WatchDog due to hard crash
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:1.8.0_261]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:758) ~[patched_1.16.4.jar:git-Paper-325]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[patched_1.16.4.jar:git-Paper-325]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:732) ~[patched_1.16.4.jar:git-Paper-325]
+	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:157) ~[patched_1.16.4.jar:git-Paper-325]
+[18:16:42] [Paper Watchdog Thread/INFO]: Stopping server
+[18:16:42] [Paper Watchdog Thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
+[18:16:42] [Paper Watchdog Thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
+[18:16:42] [Paper Watchdog Thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
+[18:16:42] [Paper Watchdog Thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
+[18:16:42] [Paper Watchdog Thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
+[18:16:42] [Paper Watchdog Thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:16:42] [Paper Watchdog Thread/INFO]: [LuckPerms] Closing storage...
+[18:16:43] [Paper Watchdog Thread/INFO]: [LuckPerms] Goodbye!
+[18:16:43] [Paper Watchdog Thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
+[18:16:43] [Paper Watchdog Thread/INFO]: Saving players
+[18:16:43] [Paper Watchdog Thread/INFO]: Saving worlds
+[18:16:43] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:16:51] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:16:52] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:16:52] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:16:52] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:16:52] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:16:52] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:17:18] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:17:19] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:17:20] [Paper Watchdog Thread/INFO]: Flushing Chunk IO
+[18:17:20] [Paper Watchdog Thread/INFO]: Closing Thread Pool
+[18:17:20] [Paper Watchdog Thread/INFO]: Closing Server
