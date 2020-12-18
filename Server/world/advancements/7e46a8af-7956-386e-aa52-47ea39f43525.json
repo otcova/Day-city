@@ -683,6 +683,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-12-18 20:07:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
     "criteria": {
       "has_the_recipe": "2020-12-18 12:23:59 +0100"
@@ -3632,7 +3638,9 @@
       "minecraft:forest": "2020-12-15 16:00:09 +0100",
       "minecraft:mountains": "2020-12-18 12:39:24 +0100",
       "minecraft:taiga": "2020-12-18 13:11:28 +0100",
+      "minecraft:desert": "2020-12-18 20:21:51 +0100",
       "minecraft:birch_forest": "2020-12-15 20:38:55 +0100",
+      "minecraft:beach": "2020-12-18 20:24:27 +0100",
       "minecraft:dark_forest": "2020-12-15 21:09:04 +0100",
       "minecraft:river": "2020-12-15 20:42:03 +0100",
       "minecraft:birch_forest_hills": "2020-12-15 20:38:58 +0100",
@@ -4106,6 +4114,7 @@
       "chicken": "2020-12-15 20:35:40 +0100",
       "cooked_mutton": "2020-12-15 20:39:29 +0100",
       "cooked_beef": "2020-12-18 11:32:40 +0100",
+      "beef": "2020-12-18 20:03:18 +0100",
       "mutton": "2020-12-15 20:17:23 +0100",
       "rotten_flesh": "2020-12-15 16:06:30 +0100",
       "suspicious_stew": "2020-12-18 13:54:55 +0100",
@@ -5130,6 +5139,12 @@
       "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/calico.png": "2020-12-18 20:07:56 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
