@@ -7,3 +7,7 @@
 1608058589286,mob decapitated,Zombie,Xiangfeng,§f[Iron Sword§f]
 1608061247609,player decapitated,Fantope,,
 1608224901031,mob decapitated,Cow,Xiangfeng,§f[Iron Axe§f]
+1608281225816,player decapitated,Xiangfeng,Crep,§f[Crossbow§f]
+1608281457773,player decapitated,Crep,Xiangfeng,§f[Iron Axe§f]
+1608281915478,player decapitated,Otcova,Xiangfeng,§f[Iron Axe§f]
+1608283626568,mob decapitated,Skeleton,Crep,§f[Iron Sword§f]
