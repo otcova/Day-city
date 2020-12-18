@@ -1631,6 +1631,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2020-12-18 12:26:06 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-12-15 19:29:39 +0100"
@@ -4129,6 +4135,7 @@
       "bread": "2020-12-16 16:21:52 +0100",
       "rotten_flesh": "2020-12-15 19:42:38 +0100",
       "melon_slice": "2020-12-16 18:29:51 +0100",
+      "golden_carrot": "2020-12-18 13:11:10 +0100",
       "cooked_chicken": "2020-12-15 19:35:38 +0100",
       "carrot": "2020-12-16 16:30:34 +0100"
     },
@@ -5103,6 +5110,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-12-18 12:26:06 +0100"
     },
     "done": true
   },

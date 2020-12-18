@@ -11,3 +11,8 @@
 1608281457773,player decapitated,Crep,Xiangfeng,§f[Iron Axe§f]
 1608281915478,player decapitated,Otcova,Xiangfeng,§f[Iron Axe§f]
 1608283626568,mob decapitated,Skeleton,Crep,§f[Iron Sword§f]
+1608292326981,player decapitated,Otcova,,
+1608292381696,player decapitated,Fantope,Otcova,§f[Iron Axe§f]
+1608293590822,mob decapitated,Salmon,Fantope,§b[Iron Sword§b]
+1608293597181,mob decapitated,Salmon,Crep,§b[Iron Sword§b]
+1608293694585,mob decapitated,Squid,Crep,§b[Iron Sword§b]
