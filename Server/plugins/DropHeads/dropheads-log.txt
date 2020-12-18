@@ -19,3 +19,4 @@
 1608296317143,player decapitated,Fantope,Crep,§b[Bow§b]
 1608296575704,player decapitated,Crep,Fantope,§b[Diamond Axe§b]
 1608298473839,player decapitated,Otcova,Fantope,§b[Bow§b]
+1608306620854,mob decapitated,Cow,Crep,§b[Iron Sword§b]
