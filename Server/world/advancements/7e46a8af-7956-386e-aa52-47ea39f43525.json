@@ -659,15 +659,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2020-12-18 12:06:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -977,15 +977,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-18 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -1661,15 +1661,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2020-12-18 12:05:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -1781,15 +1781,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-18 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -1847,15 +1847,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2020-12-18 12:06:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -1937,15 +1937,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/birch_fence": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-18 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -2312,6 +2312,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2020-12-15 16:13:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2020-12-18 14:21:42 +0100"
     },
     "done": true
   },
@@ -3105,15 +3111,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-18 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -3630,6 +3636,7 @@
       "minecraft:dark_forest": "2020-12-15 21:09:04 +0100",
       "minecraft:river": "2020-12-15 20:42:03 +0100",
       "minecraft:birch_forest_hills": "2020-12-15 20:38:58 +0100",
+      "minecraft:wooded_mountains": "2020-12-18 14:16:24 +0100",
       "minecraft:wooded_hills": "2020-12-18 12:05:05 +0100",
       "minecraft:swamp": "2020-12-15 16:01:26 +0100",
       "minecraft:savanna": "2020-12-15 20:42:04 +0100",
@@ -3691,15 +3698,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2020-12-18 12:05:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -3997,15 +4004,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2020-12-18 12:23:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2020-12-18 12:05:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_the_recipe": "2020-12-18 12:23:59 +0100"
     },
     "done": true
   },
@@ -4101,7 +4108,9 @@
       "cooked_beef": "2020-12-18 11:32:40 +0100",
       "mutton": "2020-12-15 20:17:23 +0100",
       "rotten_flesh": "2020-12-15 16:06:30 +0100",
+      "suspicious_stew": "2020-12-18 13:54:55 +0100",
       "salmon": "2020-12-18 12:52:21 +0100",
+      "golden_carrot": "2020-12-18 14:02:46 +0100",
       "cooked_chicken": "2020-12-15 20:20:16 +0100",
       "mushroom_stew": "2020-12-15 21:25:27 +0100",
       "carrot": "2020-12-18 12:06:12 +0100"

@@ -3080,7 +3080,8 @@
       "minecraft:phantom": "2020-12-16 16:00:38 +0100",
       "minecraft:witch": "2020-12-15 18:58:34 +0100",
       "minecraft:cave_spider": "2020-12-15 19:16:29 +0100",
-      "minecraft:zombie": "2020-12-15 18:06:56 +0100"
+      "minecraft:zombie": "2020-12-15 18:06:56 +0100",
+      "minecraft:drowned": "2020-12-18 14:26:39 +0100"
     },
     "done": false
   },
@@ -3664,6 +3665,7 @@
       "minecraft:beach": "2020-12-18 10:24:02 +0100",
       "minecraft:river": "2020-12-15 18:15:31 +0100",
       "minecraft:lukewarm_ocean": "2020-12-18 10:27:19 +0100",
+      "minecraft:wooded_mountains": "2020-12-18 14:16:25 +0100",
       "minecraft:wooded_hills": "2020-12-16 16:10:55 +0100",
       "minecraft:swamp": "2020-12-15 18:14:36 +0100",
       "minecraft:savanna": "2020-12-15 18:15:55 +0100",

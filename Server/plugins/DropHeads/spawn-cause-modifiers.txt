@@ -6,7 +6,7 @@
 # the new drop chance is [modifier] * [the chance before modifier]
 
 # When an animal breeds to create a baby
-BREEDING: 0.05
+BREEDING: 0.5
 
 # When an iron golem is spawned by being built
 BUILD_IRONGOLEM: 1
@@ -55,7 +55,7 @@ MOUNT: 1
 NATURAL: 1
 
 # When a creature is spawned by nether portal
-NETHER_PORTAL: 0.05
+NETHER_PORTAL: 0.5
 
 # When an ocelot has a baby spawned along with them
 OCELOT_BABY: 1
@@ -73,19 +73,19 @@ SHOULDER_ENTITY: 1
 SILVERFISH_BLOCK: 1
 
 # When a slime splits
-SLIME_SPLIT: 0.5
+SLIME_SPLIT: 0.6
 
 # When a creature spawns from a spawner
-SPAWNER: 0.05
+SPAWNER: 0.1
 
 # When a creature spawns from a Spawner Egg
-SPAWNER_EGG: 0.05
+SPAWNER_EGG: 1
 
 # When an entity spawns as a trap for players approaching
 TRAP: 2
 
 # When an iron golem is spawned to defend a village
-VILLAGE_DEFENSE: 1
+VILLAGE_DEFENSE: 0.5
 
 # When a zombie is spawned to invade a village
-VILLAGE_INVASION: 0.5
+VILLAGE_INVASION: 1

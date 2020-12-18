@@ -16,3 +16,6 @@
 1608293590822,mob decapitated,Salmon,Fantope,§b[Iron Sword§b]
 1608293597181,mob decapitated,Salmon,Crep,§b[Iron Sword§b]
 1608293694585,mob decapitated,Squid,Crep,§b[Iron Sword§b]
+1608296317143,player decapitated,Fantope,Crep,§b[Bow§b]
+1608296575704,player decapitated,Crep,Fantope,§b[Diamond Axe§b]
+1608298473839,player decapitated,Otcova,Fantope,§b[Bow§b]
