@@ -1,59 +1,59 @@
-[19:54:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:54:30] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[19:54:34] [Worker-Main-1/INFO]: Loaded 7 recipes
-[19:54:47] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[19:54:47] [Server thread/INFO]: Loading properties
-[19:54:47] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[19:54:47] [Server thread/INFO]: Debug logging is disabled
-[19:54:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:54:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:54:47] [Server thread/INFO]: Default game type: SURVIVAL
-[19:54:47] [Server thread/INFO]: Generating keypair
-[19:54:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:54:47] [Server thread/INFO]: Using default channel type
-[19:54:49] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:54:58] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
-[19:54:58] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
-[19:54:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
-[19:54:58] [ForkJoinPool-1-worker-37/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
-[19:54:59] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
-[19:54:59] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
-[19:54:59] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
-[19:54:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:54:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
-[19:54:59] [Server thread/INFO]:         __    
-[19:54:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
-[19:54:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:54:59] [Server thread/INFO]: 
-[19:54:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:55:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:55:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:55:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:55:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3097ms)
-[19:55:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:55:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:55:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:55:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:55:02] [Server thread/INFO]: Preparing level "world"
-[19:55:02] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:55:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:55:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:55:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:55:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:55:02] [Server thread/INFO]: View Distance: 10
-[19:55:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:55:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:55:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:55:02] [Server thread/INFO]: Mob Spawn Range: 8
-[19:55:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:55:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:55:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:34:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:34:05] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[20:34:07] [Worker-Main-2/INFO]: Loaded 7 recipes
+[20:34:10] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[20:34:10] [Server thread/INFO]: Loading properties
+[20:34:10] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[20:34:11] [Server thread/INFO]: Debug logging is disabled
+[20:34:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:34:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:34:11] [Server thread/INFO]: Default game type: SURVIVAL
+[20:34:11] [Server thread/INFO]: Generating keypair
+[20:34:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:34:11] [Server thread/INFO]: Using default channel type
+[20:34:13] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:34:22] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[20:34:22] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[20:34:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[20:34:22] [ForkJoinPool-1-worker-37/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[20:34:22] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[20:34:22] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
+[20:34:22] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[20:34:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:34:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[20:34:23] [Server thread/INFO]:         __    
+[20:34:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[20:34:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:34:23] [Server thread/INFO]: 
+[20:34:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:34:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:34:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:34:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:34:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3121ms)
+[20:34:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:34:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:34:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:34:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:34:25] [Server thread/INFO]: Preparing level "world"
+[20:34:26] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:34:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:34:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:34:26] [Server thread/INFO]: View Distance: 10
+[20:34:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:34:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:34:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:34:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:34:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:34:26] [Server thread/INFO]: Mob Spawn Range: 8
+[20:34:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:34:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:34:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
