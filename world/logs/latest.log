@@ -1,219 +1,186 @@
-[14:02:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:03:02] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:03:13] [Worker-Main-1/INFO]: Loaded 7 recipes
-[14:03:27] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[14:03:27] [Server thread/INFO]: Loading properties
-[14:03:28] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[14:03:28] [Server thread/INFO]: Debug logging is disabled
-[14:03:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:03:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:03:28] [Server thread/INFO]: Default game type: SURVIVAL
-[14:03:28] [Server thread/INFO]: Generating keypair
-[14:03:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:03:29] [Server thread/INFO]: Using default channel type
-[14:03:32] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:03:44] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
-[14:03:44] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
-[14:03:44] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
-[14:03:45] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
-[14:03:45] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
-[14:03:45] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
-[14:03:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:03:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
-[14:03:46] [Server thread/INFO]:         __    
-[14:03:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
-[14:03:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:03:46] [Server thread/INFO]: 
-[14:03:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:03:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:03:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:03:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:03:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 6431ms)
-[14:03:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:03:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:03:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:03:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:03:52] [Server thread/INFO]: Preparing level "world"
-[14:03:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:03:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:03:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:03:52] [Server thread/INFO]: View Distance: 10
-[14:03:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:03:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:03:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:03:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:03:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:03:52] [Server thread/INFO]: Mob Spawn Range: 8
-[14:03:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:03:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:03:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:03:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:03:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:03:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:03:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:03:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:03:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:03:52] [Server thread/INFO]: View Distance: 10
-[14:03:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:03:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:03:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:03:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:03:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:03:52] [Server thread/INFO]: Mob Spawn Range: 8
-[14:03:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:03:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:03:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:03:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:03:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:03:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:03:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:03:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:03:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:03:52] [Server thread/INFO]: View Distance: 10
-[14:03:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:03:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:03:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:03:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:03:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:03:52] [Server thread/INFO]: Mob Spawn Range: 8
-[14:03:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:03:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:03:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:03:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:03:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:03:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:03:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:03:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:03:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[14:03:54] [Server thread/INFO]: Time elapsed: 1957 ms
-[14:03:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:03:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[14:03:55] [Server thread/INFO]: Time elapsed: 359 ms
-[14:03:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:03:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[14:03:55] [Server thread/INFO]: Time elapsed: 216 ms
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
-[14:03:55] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
-[14:03:55] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
-[14:03:55] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
-[14:03:55] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.4.5
-[14:03:56] [Thread-17/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
-[14:03:56] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
-[14:03:56] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
-[14:03:56] [Server thread/INFO]: Running delayed init tasks
-[14:03:56] [Server thread/INFO]: Done (28.856s)! For help, type "help"
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_261
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[14:03:56] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[14:03:56] [Server thread/INFO]: Timings Reset
-[14:04:59] [User Authenticator #1/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[14:05:04] [Server thread/INFO]: Fantope joined the game
-[14:05:04] [Server thread/INFO]: Fantope[/192.168.1.101:59874] logged in with entity id 150 at ([world]-1787.5169336617244, 63.0, -165.5692423406386)
-[14:05:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[14:06:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25637ms or 512 ticks behind
-[14:07:44] [Server thread/INFO]: Fantope was blown up by Creeper
-[14:07:56] [Server thread/INFO]: Fantope lost connection: Disconnected
-[14:07:57] [Server thread/INFO]: Fantope left the game
-[14:10:19] [User Authenticator #2/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[14:10:19] [Server thread/INFO]: Fantope joined the game
-[14:10:20] [Server thread/INFO]: Fantope[/192.168.1.101:59913] logged in with entity id 811 at ([world]-185.5, 66.0, -237.5)
-[14:12:12] [Server thread/INFO]: Fantope issued server command: /tp -1787.5169336617244, 63.0, -165.5692423406386
-[14:12:25] [Server thread/INFO]: Incorrect argument for command
-[14:12:25] [Server thread/INFO]: ...p fantope -1787.5169336617244, 63.0, -165.5692423406386<--[HERE]
-[14:12:39] [Server thread/INFO]: Incorrect argument for command
-[14:12:39] [Server thread/INFO]: ...p Fantope -1787.5169336617244, 63.0, -165.5692423406386<--[HERE]
-[14:13:05] [Server thread/INFO]: Teleported Fantope to -1787.5169336617244, 63.0, -165.5692423406386
-[14:15:08] [Server thread/INFO]: Fantope lost connection: Disconnected
-[14:15:08] [Server thread/INFO]: Fantope left the game
-[14:16:08] [Server thread/INFO]: Stopping server
-[14:16:08] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
-[14:16:08] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
-[14:16:08] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
-[14:16:08] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
-[14:16:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
-[14:16:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:16:08] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:16:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:16:08] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
-[14:16:08] [Server thread/INFO]: Saving players
-[14:16:08] [Server thread/INFO]: Saving worlds
-[14:16:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:16:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:16:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:16:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:16:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:16:10] [Server thread/INFO]: Flushing Chunk IO
-[14:16:10] [Server thread/INFO]: Closing Thread Pool
-[14:16:10] [Server thread/INFO]: Closing Server
+[14:40:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:40:18] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:40:19] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:40:22] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[14:40:22] [Server thread/INFO]: Loading properties
+[14:40:22] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[14:40:22] [Server thread/INFO]: Debug logging is disabled
+[14:40:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:40:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:40:22] [Server thread/INFO]: Default game type: SURVIVAL
+[14:40:22] [Server thread/INFO]: Generating keypair
+[14:40:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:40:23] [Server thread/INFO]: Using default channel type
+[14:40:23] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:40:30] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[14:40:30] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[14:40:30] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[14:40:30] [ForkJoinPool-1-worker-37/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:40:31] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[14:40:31] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
+[14:40:31] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[14:40:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:40:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[14:40:31] [Server thread/INFO]:         __    
+[14:40:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[14:40:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:40:31] [Server thread/INFO]: 
+[14:40:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:40:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:40:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:40:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:40:33] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2562ms)
+[14:40:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:40:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:40:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:40:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:40:33] [Server thread/INFO]: Preparing level "world"
+[14:40:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:40:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:40:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:40:33] [Server thread/INFO]: Mob Spawn Range: 8
+[14:40:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:40:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:40:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:40:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:40:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:40:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:40:33] [Server thread/INFO]: Max TNT Explosions: 100
+[14:40:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:40:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:40:33] [Server thread/INFO]: View Distance: 10
+[14:40:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:40:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:40:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:40:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:40:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:40:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:40:34] [Server thread/INFO]: Mob Spawn Range: 8
+[14:40:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:40:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:40:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:40:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:40:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:40:34] [Server thread/INFO]: Max TNT Explosions: 100
+[14:40:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:40:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:40:34] [Server thread/INFO]: View Distance: 10
+[14:40:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:40:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:40:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:40:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:40:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:40:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:40:34] [Server thread/INFO]: Mob Spawn Range: 8
+[14:40:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:40:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:40:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:40:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:40:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:40:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:40:34] [Server thread/INFO]: Max TNT Explosions: 100
+[14:40:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:40:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:40:34] [Server thread/INFO]: View Distance: 10
+[14:40:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:40:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:40:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:40:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:40:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[14:40:34] [Server thread/INFO]: Time elapsed: 257 ms
+[14:40:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:40:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[14:40:34] [Server thread/INFO]: Time elapsed: 147 ms
+[14:40:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:40:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[14:40:34] [Server thread/INFO]: Time elapsed: 160 ms
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[14:40:35] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[14:40:35] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
+[14:40:35] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
+[14:40:35] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.4.5
+[14:40:35] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
+[14:40:35] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[14:40:35] [Thread-12/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
+[14:40:35] [Server thread/INFO]: Running delayed init tasks
+[14:40:35] [Server thread/INFO]: Done (13.137s)! For help, type "help"
+[14:40:35] [Server thread/INFO]: Timings Reset
+[14:40:39] [Server thread/INFO]: Stopping server
+[14:40:39] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
+[14:40:39] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
+[14:40:39] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
+[14:40:39] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
+[14:40:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
+[14:40:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:40:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:40:39] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:40:39] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
+[14:40:39] [Server thread/INFO]: Saving players
+[14:40:40] [Server thread/INFO]: Saving worlds
+[14:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:40:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:50] [Server thread/INFO]: Flushing Chunk IO
+[14:40:50] [Server thread/INFO]: Closing Thread Pool
+[14:40:50] [Server thread/INFO]: Closing Server
