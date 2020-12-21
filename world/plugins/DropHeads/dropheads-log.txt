@@ -21,3 +21,15 @@
 1608298473839,player decapitated,Otcova,Fantope,§b[Bow§b]
 1608306620854,mob decapitated,Cow,Crep,§b[Iron Sword§b]
 1608318304346,player decapitated,Otcova,DarkBench10000,§f[Stone Sword§f]
+1608562156989,mob decapitated,Sheep,Crep,§b[Golden Axe§b]
+1608562316317,mob decapitated,Skeleton,Crep,§b[Golden Axe§b]
+1608562606142,mob decapitated,Sheep,Crep,§b[Golden Axe§b]
+1608564294674,mob decapitated,Cartographer,Crep,§b[Golden Axe§b]
+1608565374146,gethead command,Otcova,armor_stand
+1608565517957,gethead command,Otcova,arrow
+1608565538350,gethead command,Otcova,boat
+1608565553808,gethead command,Otcova,firework
+1608565601519,gethead command,Otcova,FIREWORK
+1608565621510,gethead command,Otcova,LEASH_HITCH
+1608565638269,gethead command,Otcova,MINECART
+1608566475269,player decapitated,Fantope,,

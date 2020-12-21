@@ -1193,6 +1193,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-12-21 17:23:36 +0100",
+      "minecraft:warped_forest": "2020-12-21 18:10:33 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
@@ -1334,6 +1341,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-12-21 17:23:35 +0100"
     },
     "done": true
   },
@@ -1849,6 +1862,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-12-21 17:23:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-16 18:19:19 +0100"
@@ -2329,6 +2348,12 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2020-12-21 18:39:45 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2020-12-15 19:01:40 +0100"
@@ -2644,6 +2669,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2020-12-21 18:39:54 +0100"
     },
     "done": true
   },
@@ -3076,6 +3107,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2020-12-15 19:35:32 +0100",
+      "minecraft:magma_cube": "2020-12-21 18:40:33 +0100",
       "minecraft:spider": "2020-12-15 20:55:24 +0100",
       "minecraft:creeper": "2020-12-15 19:03:06 +0100",
       "minecraft:witch": "2020-12-18 10:20:12 +0100",
@@ -3749,6 +3781,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2020-12-21 18:19:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
@@ -4058,6 +4096,12 @@
   "minecraft:recipes/decorations/nether_brick_wall": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2020-12-21 18:46:45 +0100"
     },
     "done": true
   },

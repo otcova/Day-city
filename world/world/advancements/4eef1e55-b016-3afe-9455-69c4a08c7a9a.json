@@ -449,6 +449,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2020-12-21 16:55:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
       "has_the_recipe": "2020-12-18 10:53:14 +0100"
@@ -1187,6 +1193,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-12-21 16:59:18 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_the_recipe": "2020-12-18 10:53:14 +0100"
@@ -1328,6 +1340,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-18 10:53:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-12-21 16:59:18 +0100"
     },
     "done": true
   },
@@ -1838,6 +1856,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_the_recipe": "2020-12-18 10:53:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-12-21 16:59:18 +0100"
     },
     "done": true
   },
@@ -2945,6 +2969,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2020-12-21 17:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-12-15 18:39:00 +0100"
@@ -3075,13 +3105,16 @@
     "criteria": {
       "minecraft:pillager": "2020-12-16 16:11:49 +0100",
       "minecraft:skeleton": "2020-12-15 18:35:57 +0100",
+      "minecraft:ghast": "2020-12-21 17:01:33 +0100",
       "minecraft:spider": "2020-12-15 18:59:19 +0100",
       "minecraft:creeper": "2020-12-15 19:09:52 +0100",
       "minecraft:phantom": "2020-12-16 16:00:38 +0100",
       "minecraft:witch": "2020-12-15 18:58:34 +0100",
       "minecraft:cave_spider": "2020-12-15 19:16:29 +0100",
+      "minecraft:enderman": "2020-12-21 16:06:06 +0100",
       "minecraft:zombie": "2020-12-15 18:06:56 +0100",
-      "minecraft:drowned": "2020-12-18 14:26:39 +0100"
+      "minecraft:drowned": "2020-12-18 14:26:39 +0100",
+      "minecraft:zombie_villager": "2020-12-21 16:17:51 +0100"
     },
     "done": false
   },
@@ -3665,8 +3698,10 @@
       "minecraft:deep_lukewarm_ocean": "2020-12-18 11:02:09 +0100",
       "minecraft:savanna_plateau": "2020-12-15 18:45:52 +0100",
       "minecraft:beach": "2020-12-18 10:24:02 +0100",
+      "minecraft:dark_forest": "2020-12-21 15:42:18 +0100",
       "minecraft:river": "2020-12-15 18:15:31 +0100",
       "minecraft:lukewarm_ocean": "2020-12-18 10:27:19 +0100",
+      "minecraft:birch_forest_hills": "2020-12-21 16:17:36 +0100",
       "minecraft:wooded_mountains": "2020-12-18 14:16:25 +0100",
       "minecraft:wooded_hills": "2020-12-16 16:10:55 +0100",
       "minecraft:swamp": "2020-12-15 18:14:36 +0100",
