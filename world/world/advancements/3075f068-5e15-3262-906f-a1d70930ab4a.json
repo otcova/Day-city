@@ -2042,6 +2042,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "pufferfish_bucket": "2020-12-22 15:07:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_sandstone": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
@@ -3113,7 +3119,8 @@
       "minecraft:witch": "2020-12-18 10:20:12 +0100",
       "minecraft:cave_spider": "2020-12-15 19:14:56 +0100",
       "minecraft:enderman": "2020-12-17 17:56:04 +0100",
-      "minecraft:zombie": "2020-12-15 19:20:29 +0100"
+      "minecraft:zombie": "2020-12-15 19:20:29 +0100",
+      "minecraft:drowned": "2020-12-22 15:12:44 +0100"
     },
     "done": false
   },
@@ -4182,6 +4189,7 @@
       "mutton": "2020-12-15 19:21:44 +0100",
       "bread": "2020-12-16 16:21:52 +0100",
       "rotten_flesh": "2020-12-15 19:42:38 +0100",
+      "cookie": "2020-12-22 15:37:28 +0100",
       "salmon": "2020-12-18 19:40:57 +0100",
       "melon_slice": "2020-12-16 18:29:51 +0100",
       "golden_carrot": "2020-12-18 13:11:10 +0100",

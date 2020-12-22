@@ -33,3 +33,8 @@
 1608565621510,gethead command,Otcova,LEASH_HITCH
 1608565638269,gethead command,Otcova,MINECART
 1608566475269,player decapitated,Fantope,,
+1608627716511,gethead command,Otcova,boat
+1608641222969,mob decapitated,Magma Cube,Crep,§b[Iron Sword§b]
+1608645460120,mob decapitated,Pig,Fantope,§b[Iron Sword§b]
+1608645769718,player decapitated,Crep,Wolf,
+1608648503606,mob decapitated,Zombie,Wolf,

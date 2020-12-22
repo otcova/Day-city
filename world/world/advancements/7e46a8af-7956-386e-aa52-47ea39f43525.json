@@ -2052,6 +2052,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2020-12-22 15:02:28 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_sandstone": {
     "criteria": {
       "has_the_recipe": "2020-12-18 12:23:59 +0100"
@@ -3126,7 +3132,8 @@
       "minecraft:piglin": "2020-12-21 17:01:45 +0100",
       "minecraft:enderman": "2020-12-18 11:40:10 +0100",
       "minecraft:zombie": "2020-12-15 20:45:30 +0100",
-      "minecraft:drowned": "2020-12-21 14:06:52 +0100"
+      "minecraft:drowned": "2020-12-21 14:06:52 +0100",
+      "minecraft:zombie_villager": "2020-12-22 14:24:48 +0100"
     },
     "done": false
   },
@@ -3700,12 +3707,14 @@
       "minecraft:mountains": "2020-12-18 12:39:24 +0100",
       "minecraft:taiga": "2020-12-18 13:11:28 +0100",
       "minecraft:desert_hills": "2020-12-21 16:52:30 +0100",
+      "minecraft:taiga_hills": "2020-12-22 14:37:27 +0100",
       "minecraft:desert": "2020-12-18 20:21:51 +0100",
       "minecraft:birch_forest": "2020-12-15 20:38:55 +0100",
       "minecraft:savanna_plateau": "2020-12-21 16:44:46 +0100",
       "minecraft:beach": "2020-12-18 20:24:27 +0100",
       "minecraft:dark_forest": "2020-12-15 21:09:04 +0100",
       "minecraft:river": "2020-12-15 20:42:03 +0100",
+      "minecraft:lukewarm_ocean": "2020-12-22 15:02:24 +0100",
       "minecraft:birch_forest_hills": "2020-12-15 20:38:58 +0100",
       "minecraft:wooded_mountains": "2020-12-18 14:16:24 +0100",
       "minecraft:wooded_hills": "2020-12-18 12:05:05 +0100",
@@ -4191,6 +4200,7 @@
       "cooked_beef": "2020-12-18 11:32:40 +0100",
       "beef": "2020-12-18 20:03:18 +0100",
       "mutton": "2020-12-15 20:17:23 +0100",
+      "bread": "2020-12-22 15:13:05 +0100",
       "rotten_flesh": "2020-12-15 16:06:30 +0100",
       "suspicious_stew": "2020-12-18 13:54:55 +0100",
       "salmon": "2020-12-18 12:52:21 +0100",

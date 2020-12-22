@@ -25,16 +25,16 @@ CHUNK_GEN: 1.5
 CURED: 4
 
 # When a creature is spawned by plugins
-CUSTOM: 0
+CUSTOM: 0.5
 
 # When an entity is missing a SpawnReason
 DEFAULT: 1
 
 # When a creature is spawned by a dispenser dispensing an egg
-DISPENSE_EGG: 0.05
+DISPENSE_EGG: 0.5
 
 # When a creature spawns from an egg
-EGG: 0.05
+EGG: 0.5
 
 # When a endermite is spawned as a result of enderpearl usage
 ENDER_PEARL: 1
@@ -76,7 +76,7 @@ SILVERFISH_BLOCK: 1
 SLIME_SPLIT: 0.6
 
 # When a creature spawns from a spawner
-SPAWNER: 0.1
+SPAWNER: 0.3
 
 # When a creature spawns from a Spawner Egg
 SPAWNER_EGG: 1
