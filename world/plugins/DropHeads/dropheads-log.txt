@@ -38,3 +38,6 @@
 1608645460120,mob decapitated,Pig,Fantope,§b[Iron Sword§b]
 1608645769718,player decapitated,Crep,Wolf,
 1608648503606,mob decapitated,Zombie,Wolf,
+1608743610140,mob decapitated,Slime,Otcova,§f[Stone Axe§f]
+1608743614591,mob decapitated,Slime,Otcova,§f[Stone Axe§f]
+1608743724542,mob decapitated,Slime,Otcova,§f[Stone Axe§f]

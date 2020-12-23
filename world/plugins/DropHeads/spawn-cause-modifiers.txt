@@ -6,10 +6,10 @@
 # the new drop chance is [modifier] * [the chance before modifier]
 
 # When an animal breeds to create a baby
-BREEDING: 0.5
+BREEDING: 1
 
 # When an iron golem is spawned by being built
-BUILD_IRONGOLEM: 1
+BUILD_IRONGOLEM: 2
 
 # When a snowman is spawned by being built
 BUILD_SNOWMAN: 1
@@ -25,7 +25,7 @@ CHUNK_GEN: 1.5
 CURED: 4
 
 # When a creature is spawned by plugins
-CUSTOM: 0.5
+CUSTOM: 1
 
 # When an entity is missing a SpawnReason
 DEFAULT: 1
@@ -73,10 +73,10 @@ SHOULDER_ENTITY: 1
 SILVERFISH_BLOCK: 1
 
 # When a slime splits
-SLIME_SPLIT: 0.6
+SLIME_SPLIT: 0.2
 
 # When a creature spawns from a spawner
-SPAWNER: 0.3
+SPAWNER: 0.4
 
 # When a creature spawns from a Spawner Egg
 SPAWNER_EGG: 1
@@ -85,7 +85,7 @@ SPAWNER_EGG: 1
 TRAP: 2
 
 # When an iron golem is spawned to defend a village
-VILLAGE_DEFENSE: 0.5
+VILLAGE_DEFENSE: 1
 
 # When a zombie is spawned to invade a village
 VILLAGE_INVASION: 1
