@@ -1,195 +1,276 @@
-[00:07:09] [User Authenticator #4/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[00:07:10] [Server thread/INFO]: Fantope joined the game
-[00:07:10] [Server thread/INFO]: Fantope[/192.168.1.101:49473] logged in with entity id 8235 at ([world]-835.6999999880791, 11.0, -116.02610585293884)
-[00:07:37] [Server thread/INFO]: Fantope issued server command: /home
-[00:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5049ms or 100 ticks behind
-[00:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5036ms or 100 ticks behind
-[00:09:46] [Server thread/INFO]: Fantope issued server command: /home
-[00:10:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
-[00:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5116ms or 102 ticks behind
-[00:12:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5103ms or 102 ticks behind
-[00:13:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9888ms or 197 ticks behind
-[00:16:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
-[00:17:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
-[00:18:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
-[00:19:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[00:20:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7428ms or 148 ticks behind
-[00:20:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8087ms or 161 ticks behind
-[00:21:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[00:22:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[00:24:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
-[00:26:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5063ms or 101 ticks behind
-[00:29:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
-[00:31:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5036ms or 100 ticks behind
-[00:32:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[00:33:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[00:33:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6398ms or 127 ticks behind
-[00:34:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9648ms or 192 ticks behind
-[00:34:33] [Server thread/INFO]: Fantope issued server command: /home
-[00:35:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5032ms or 100 ticks behind
-[00:36:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
-[00:38:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
-[00:39:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
-[00:39:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5383ms or 107 ticks behind
-[00:40:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
-[00:41:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5558ms or 111 ticks behind
-[00:42:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
-[00:43:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5046ms or 100 ticks behind
-[00:44:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6121ms or 122 ticks behind
-[00:45:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
-[00:45:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
-[00:46:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7469ms or 149 ticks behind
-[00:47:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6690ms or 133 ticks behind
-[00:50:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[00:51:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[00:51:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[00:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
-[00:53:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
-[00:53:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[00:54:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
-[00:55:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
-[00:56:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
-[00:58:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
-[00:58:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
-[01:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
-[01:08:50] [Server thread/INFO]: Fantope issued server command: /sethome
-[01:09:48] [Server thread/INFO]: Fantope issued server command: /home
-[01:15:42] [Server thread/INFO]: Fantope issued server command: /home
-[01:17:47] [Server thread/WARN]: Fantope moved too quickly! 4.257951426107525,-1.0,-13.179416285695595
-[01:17:49] [Server thread/INFO]: Fantope issued server command: /home
-[01:19:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6034ms or 120 ticks behind
-[01:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8896ms or 177 ticks behind
-[01:24:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17096ms or 341 ticks behind
-[01:24:55] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[01:24:55] [Paper Watchdog Thread/ERROR]: The server has not responded for -2 seconds! Creating thread dump
-[01:24:55] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:24:55] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:25:06] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:06] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:25:06] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
-[01:25:06] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.VoxelShapeSpliterator.b(VoxelShapeSpliterator.java:127)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.VoxelShapeSpliterator.tryAdvance(VoxelShapeSpliterator.java:49)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.findAny(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.Entity.inBlock(Entity.java:1949)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.inBlock(EntityLiving.java:3486)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.entityBaseTick(EntityLiving.java:270)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityInsentient.entityBaseTick(EntityInsentient.java:245)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityWaterAnimal.entityBaseTick(SourceFile:59)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.Entity.tick(Entity.java:406)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2429)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:308)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityFishSchool.tick(SourceFile:75)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:845)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4243/454988640.accept(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.a(World.java:884)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:530)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3045/1672899343.run(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
-[01:25:06] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:06] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:25:06] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:41] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[01:25:41] [Paper Watchdog Thread/ERROR]: The server has not responded for 22 seconds! Creating thread dump
-[01:25:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:41] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:25:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:25:41] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
-[01:25:41] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.IAsyncTaskHandler.bm(IAsyncTaskHandler.java:131)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:120)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:1087)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1001)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3045/1672899343.run(Unknown Source)
-[01:25:41] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
-[01:25:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:41] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:25:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:25:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22809ms or 456 ticks behind
-[01:25:41] [Server thread/WARN]: Fantope moved too quickly! -29.357395872455186,0.6709083839322858,-20.973066264378758
-[01:25:47] [Server thread/WARN]: Fantope moved too quickly! -13.021537220271512,2.0013359791121417,-0.9691752702752865
-[01:25:55] [Server thread/WARN]: Fantope moved too quickly! -11.689469955485833,-1.0,-3.394627502918979
-[01:26:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[01:26:51] [Paper Watchdog Thread/ERROR]: The server has not responded for 36 seconds! Creating thread dump
-[01:26:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:26:51] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:26:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36573ms or 731 ticks behind
-[01:26:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:26:51] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:26:51] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
-[01:26:51] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.getChunkAt(World.java:347)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.getChunkAt(World.java:289)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.getType(World.java:675)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.Entity.checkBlockCollisions(Entity.java:975)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.Entity.move(Entity.java:713)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.a(EntityLiving.java:2366)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.g(EntityLiving.java:2325)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2792)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:545)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:23)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2477)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:308)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.EntityCreeper.tick(EntityCreeper.java:124)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:845)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4243/454988640.accept(Unknown Source)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.a(World.java:884)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:530)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3045/1672899343.run(Unknown Source)
-[01:26:51] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
-[01:26:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:26:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:26:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:26:51] [Server thread/INFO]: Fantope lost connection: Disconnected
-[01:26:52] [Server thread/INFO]: Fantope left the game
-[01:26:56] [User Authenticator #5/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[01:26:57] [Server thread/INFO]: Fantope joined the game
-[01:26:57] [Server thread/INFO]: Fantope[/192.168.1.101:49969] logged in with entity id 17516 at ([world]-1104.4600710952266, 81.0, -616.5703372849582)
-[01:27:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5925ms or 118 ticks behind
-[01:27:43] [Server thread/INFO]: Fantope lost connection: Disconnected
-[01:27:49] [Server thread/INFO]: Fantope left the game
-[01:28:03] [Server thread/INFO]: Stopping the server
-[01:28:03] [Server thread/INFO]: Stopping server
-[01:28:03] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
-[01:28:03] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
-[01:28:03] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
-[01:28:03] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
-[01:28:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
-[01:28:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:28:03] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:28:06] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:28:06] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
-[01:28:06] [Server thread/INFO]: Saving players
-[01:28:06] [Server thread/INFO]: Saving worlds
-[01:28:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:28:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:28:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:28:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:28:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:28:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:28:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:28:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:28:26] [Server thread/INFO]: Flushing Chunk IO
-[01:28:26] [Server thread/INFO]: Closing Thread Pool
-[01:28:26] [Server thread/INFO]: Closing Server
+[10:00:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:00:57] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[10:00:58] [Worker-Main-1/INFO]: Loaded 7 recipes
+[10:01:05] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[10:01:05] [Server thread/INFO]: Loading properties
+[10:01:05] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[10:01:05] [Server thread/INFO]: Debug logging is disabled
+[10:01:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:01:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:01:06] [Server thread/INFO]: Default game type: SURVIVAL
+[10:01:06] [Server thread/INFO]: Generating keypair
+[10:01:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:01:06] [Server thread/INFO]: Using default channel type
+[10:01:07] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:01:15] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[10:01:16] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[10:01:16] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[10:01:16] [ForkJoinPool-1-worker-17/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[10:01:17] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[10:01:17] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.4.5
+[10:01:17] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[10:01:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:01:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[10:01:18] [Server thread/INFO]:         __    
+[10:01:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[10:01:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:01:18] [Server thread/INFO]: 
+[10:01:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:01:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:01:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:01:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:01:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 7784ms)
+[10:01:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:01:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:01:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:01:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:01:25] [Server thread/INFO]: Preparing level "world"
+[10:01:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:01:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:25] [Server thread/INFO]: View Distance: 10
+[10:01:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:01:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:01:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:01:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:25] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:25] [Server thread/INFO]: Mob Spawn Range: 8
+[10:01:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:01:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:25] [Server thread/INFO]: View Distance: 10
+[10:01:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:01:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:01:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:01:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:01:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:25] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:25] [Server thread/INFO]: Mob Spawn Range: 8
+[10:01:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:26] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:01:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:26] [Server thread/INFO]: View Distance: 10
+[10:01:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:01:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:01:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:01:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:01:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:26] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:26] [Server thread/INFO]: Mob Spawn Range: 8
+[10:01:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:01:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[10:01:26] [Server thread/INFO]: Time elapsed: 431 ms
+[10:01:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:01:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[10:01:26] [Server thread/INFO]: Time elapsed: 254 ms
+[10:01:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:01:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[10:01:26] [Server thread/INFO]: Time elapsed: 102 ms
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[10:01:26] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[10:01:27] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
+[10:01:27] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
+[10:01:27] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.4.5
+[10:01:27] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
+[10:01:27] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[10:01:27] [Thread-13/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
+[10:01:28] [Server thread/INFO]: Running delayed init tasks
+[10:01:28] [Server thread/INFO]: Done (23.024s)! For help, type "help"
+[10:01:28] [Server thread/INFO]: Timings Reset
+[10:01:58] [User Authenticator #1/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
+[10:02:09] [Server thread/INFO]: Otcova joined the game
+[10:02:10] [Server thread/INFO]: Otcova[/62.175.114.173:64368] logged in with entity id 155 at ([world]-687.8577342798297, 63.003016261509046, -564.3691990826804)
+[10:02:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
+[10:02:17] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[10:02:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:17] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[10:02:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[10:02:18] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: true | State: RUNNABLE
+[10:02:18] [Paper Watchdog Thread/ERROR]: 	Stack:
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.io.RandomAccessFile.readBytes(Native Method)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.io.RandomAccessFile.read(RandomAccessFile.java:408)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.io.RandomAccessFile.readFully(RandomAccessFile.java:472)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1281)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:907)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:923)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:445)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:822)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:723)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:646)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.StatisticManager.b(StatisticManager.java:19)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityPlayer.a(EntityPlayer.java:1420)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.b(EntityHuman.java:1364)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.a(EntityHuman.java:1356)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.tick(EntityHuman.java:165)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityPlayer.playerTick(EntityPlayer.java:512)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnection.tick(PlayerConnection.java:176)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.NetworkManager.a(NetworkManager.java:388)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:145)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1381)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x0000000801202520.run(Unknown Source)
+[10:02:18] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+[10:02:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[10:02:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
+[10:02:22] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[10:02:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:22] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[10:02:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:22] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[10:02:22] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: true | State: RUNNABLE
+[10:02:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.io.RandomAccessFile.readBytes(Native Method)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.io.RandomAccessFile.read(RandomAccessFile.java:408)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$Source.readAt(ZipFile.java:1294)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:933)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:445)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:822)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:723)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:646)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_16_R3.event.CraftEventFactory.handleStatisticsIncrease(CraftEventFactory.java:1503)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.StatisticManager.b(StatisticManager.java:19)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityPlayer.a(EntityPlayer.java:1420)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.b(EntityHuman.java:1364)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.a(EntityHuman.java:1356)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityHuman.tick(EntityHuman.java:165)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityPlayer.playerTick(EntityPlayer.java:512)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnection.tick(PlayerConnection.java:176)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.NetworkManager.a(NetworkManager.java:388)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ServerConnection.c(ServerConnection.java:145)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1381)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x0000000801202520.run(Unknown Source)
+[10:02:22] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+[10:02:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[10:02:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15356ms or 307 ticks behind
+[10:03:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5212ms or 104 ticks behind
+[10:13:06] [Server thread/INFO]: Otcova lost connection: Disconnected
+[10:13:06] [Server thread/INFO]: Otcova left the game
+[10:13:11] [Server thread/INFO]: Stopping server
+[10:13:11] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
+[10:13:11] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.4.5
+[10:13:11] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
+[10:13:11] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
+[10:13:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
+[10:13:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[10:13:11] [Server thread/INFO]: [LuckPerms] Closing storage...
+[10:13:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[10:13:15] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
+[10:13:15] [Server thread/INFO]: Saving players
+[10:13:15] [Server thread/INFO]: Saving worlds
+[10:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:13:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:13:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:13:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:13:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:13:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:13:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:13:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:13:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:13:23] [Server thread/INFO]: Flushing Chunk IO
+[10:13:23] [Server thread/INFO]: Closing Thread Pool
+[10:13:23] [Server thread/INFO]: Closing Server
