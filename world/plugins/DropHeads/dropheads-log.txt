@@ -41,3 +41,4 @@
 1608743610140,mob decapitated,Slime,Otcova,§f[Stone Axe§f]
 1608743614591,mob decapitated,Slime,Otcova,§f[Stone Axe§f]
 1608743724542,mob decapitated,Slime,Otcova,§f[Stone Axe§f]
+1608843068680,mob decapitated,Magma Cube,Otcova,§f[Iron Sword§f]

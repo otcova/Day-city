@@ -1208,7 +1208,9 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2020-12-21 16:59:30 +0100",
-      "minecraft:warped_forest": "2020-12-21 17:04:55 +0100"
+      "minecraft:soul_sand_valley": "2020-12-24 23:36:04 +0100",
+      "minecraft:warped_forest": "2020-12-21 17:04:55 +0100",
+      "minecraft:basalt_deltas": "2020-12-24 23:36:28 +0100"
     },
     "done": false
   },
@@ -2328,6 +2330,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2020-12-24 23:45:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2020-12-15 20:50:43 +0100"
@@ -2994,6 +3002,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2020-12-24 23:34:25 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-12-18 11:32:00 +0100"
@@ -3122,12 +3136,15 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2020-12-24 23:37:51 +0100",
       "minecraft:skeleton": "2020-12-15 20:35:24 +0100",
+      "minecraft:ghast": "2020-12-24 23:34:25 +0100",
       "minecraft:magma_cube": "2020-12-21 18:28:10 +0100",
       "minecraft:spider": "2020-12-15 21:36:48 +0100",
       "minecraft:piglin_brute": "2020-12-21 18:20:41 +0100",
       "minecraft:creeper": "2020-12-15 16:08:51 +0100",
       "minecraft:witch": "2020-12-21 16:44:07 +0100",
+      "minecraft:wither_skeleton": "2020-12-24 23:41:12 +0100",
       "minecraft:husk": "2020-12-21 16:54:35 +0100",
       "minecraft:piglin": "2020-12-21 17:01:45 +0100",
       "minecraft:enderman": "2020-12-18 11:40:10 +0100",
@@ -4739,6 +4756,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2020-12-15 16:08:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2020-12-24 23:38:26 +0100"
     },
     "done": true
   },
