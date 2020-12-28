@@ -494,6 +494,7 @@
       "minecraft:cave_spider": "2020-12-15 19:02:41 +0100",
       "minecraft:enderman": "2020-12-15 20:02:33 +0100",
       "minecraft:zombie": "2020-12-15 18:09:11 +0100",
+      "minecraft:drowned": "2020-12-28 13:59:02 +0100",
       "minecraft:zombie_villager": "2020-12-15 19:25:49 +0100"
     },
     "done": false
@@ -1034,6 +1035,12 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2020-12-18 08:58:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2020-12-28 14:02:01 +0100"
     },
     "done": true
   },
@@ -1587,6 +1594,12 @@
       "has_cut_sandstone": "2020-12-17 17:44:27 +0100"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2020-12-28 14:02:28 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
@@ -2323,6 +2336,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2020-12-17 17:49:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-12-28 14:02:28 +0100"
     },
     "done": true
   },

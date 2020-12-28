@@ -3137,12 +3137,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2020-12-24 23:37:51 +0100",
+      "minecraft:pillager": "2020-12-28 14:18:13 +0100",
       "minecraft:skeleton": "2020-12-15 20:35:24 +0100",
       "minecraft:ghast": "2020-12-24 23:34:25 +0100",
       "minecraft:magma_cube": "2020-12-21 18:28:10 +0100",
       "minecraft:spider": "2020-12-15 21:36:48 +0100",
       "minecraft:piglin_brute": "2020-12-21 18:20:41 +0100",
       "minecraft:creeper": "2020-12-15 16:08:51 +0100",
+      "minecraft:slime": "2020-12-28 15:01:50 +0100",
       "minecraft:witch": "2020-12-21 16:44:07 +0100",
       "minecraft:wither_skeleton": "2020-12-24 23:41:12 +0100",
       "minecraft:husk": "2020-12-21 16:54:35 +0100",
@@ -3720,12 +3722,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2020-12-28 15:28:49 +0100",
       "minecraft:forest": "2020-12-15 16:00:09 +0100",
       "minecraft:mountains": "2020-12-18 12:39:24 +0100",
       "minecraft:taiga": "2020-12-18 13:11:28 +0100",
       "minecraft:desert_hills": "2020-12-21 16:52:30 +0100",
       "minecraft:taiga_hills": "2020-12-22 14:37:27 +0100",
       "minecraft:desert": "2020-12-18 20:21:51 +0100",
+      "minecraft:deep_frozen_ocean": "2020-12-28 15:29:01 +0100",
       "minecraft:birch_forest": "2020-12-15 20:38:55 +0100",
       "minecraft:savanna_plateau": "2020-12-21 16:44:46 +0100",
       "minecraft:beach": "2020-12-18 20:24:27 +0100",
