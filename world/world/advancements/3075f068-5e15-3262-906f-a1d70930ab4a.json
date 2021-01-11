@@ -515,6 +515,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2021-01-11 20:23:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
@@ -1112,6 +1118,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2021-01-11 20:28:33 +0100"
     },
     "done": true
   },
@@ -3129,8 +3141,10 @@
       "minecraft:slime": "2020-12-23 18:12:30 +0100",
       "minecraft:witch": "2020-12-18 10:20:12 +0100",
       "minecraft:wither_skeleton": "2020-12-24 23:40:04 +0100",
+      "minecraft:ender_dragon": "2021-01-11 20:23:29 +0100",
       "minecraft:cave_spider": "2020-12-15 19:14:56 +0100",
       "minecraft:enderman": "2020-12-17 17:56:04 +0100",
+      "minecraft:silverfish": "2021-01-11 19:06:03 +0100",
       "minecraft:zombie": "2020-12-15 19:20:29 +0100",
       "minecraft:drowned": "2020-12-22 15:12:44 +0100"
     },
@@ -3292,6 +3306,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-01-11 18:55:54 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_carpet_from_white_carpet": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
@@ -3325,6 +3345,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2020-12-17 16:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-01-11 20:01:40 +0100"
     },
     "done": true
   },
@@ -5179,6 +5205,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-16 18:19:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-01-11 20:01:40 +0100"
     },
     "done": true
   },

@@ -1,394 +1,458 @@
-[13:29:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:29:09] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[13:29:11] [Worker-Main-2/INFO]: Loaded 7 recipes
-[13:29:29] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[13:29:29] [Server thread/INFO]: Loading properties
-[13:29:29] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[13:29:29] [Server thread/INFO]: Debug logging is disabled
-[13:29:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:29:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:29:29] [Server thread/INFO]: Default game type: SURVIVAL
-[13:29:29] [Server thread/INFO]: Generating keypair
-[13:29:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:29:30] [Server thread/INFO]: Using default channel type
-[13:29:34] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:29:50] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
-[13:29:58] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
-[13:29:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
-[13:30:00] [ForkJoinPool-1-worker-51/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
-[13:30:05] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
-[13:30:05] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.5.2
-[13:30:05] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
-[13:30:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:30:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
-[13:30:23] [Server thread/INFO]:         __    
-[13:30:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
-[13:30:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:30:23] [Server thread/INFO]: 
-[13:30:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:30:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:30:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:30:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:30:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 26240ms)
-[13:30:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:30:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:30:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:30:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:30:32] [Server thread/INFO]: Preparing level "world"
-[13:30:33] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:30:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:30:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:30:33] [Server thread/INFO]: View Distance: 10
-[13:30:33] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:30:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:30:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:30:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:30:33] [Server thread/INFO]: Mob Spawn Range: 8
-[13:30:33] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:30:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:30:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:30:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:30:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:30:33] [Server thread/INFO]: Max TNT Explosions: 100
-[13:30:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:30:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:30:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:30:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:30:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:30:34] [Server thread/INFO]: View Distance: 10
-[13:30:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:30:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:30:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:30:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:30:34] [Server thread/INFO]: Mob Spawn Range: 8
-[13:30:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:30:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:30:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:30:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:30:34] [Server thread/INFO]: Max TNT Explosions: 100
-[13:30:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:30:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:30:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:30:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:30:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:30:34] [Server thread/INFO]: View Distance: 10
-[13:30:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:30:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:30:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:30:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:30:34] [Server thread/INFO]: Mob Spawn Range: 8
-[13:30:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:30:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:30:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[13:30:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:30:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:30:34] [Server thread/INFO]: Max TNT Explosions: 100
-[13:30:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:30:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:30:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:30:36] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[13:30:36] [Server thread/INFO]: Time elapsed: 1129 ms
-[13:30:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:30:36] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[13:30:36] [Server thread/INFO]: Time elapsed: 148 ms
-[13:30:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:30:36] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[13:30:36] [Server thread/INFO]: Time elapsed: 138 ms
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
-[13:30:36] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
-[13:30:37] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
-[13:30:37] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
-[13:30:38] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
-[13:30:38] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
-[13:30:38] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.5.2
-[13:30:39] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
-[13:30:39] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
-[13:30:41] [Server thread/INFO]: Running delayed init tasks
-[13:30:41] [Server thread/INFO]: Done (72.505s)! For help, type "help"
-[13:30:41] [Server thread/INFO]: Timings Reset
-[13:30:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7035ms or 140 ticks behind
-[13:30:51] [Thread-11/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
-[13:31:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@61d3d2cd[id=<null>,name=Fantope,properties={},legacy=false] (/80.103.116.164:58205) lost connection: Disconnected
-[13:31:01] [User Authenticator #1/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[13:31:06] [User Authenticator #1/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[13:31:11] [Server thread/INFO]: Fantope joined the game
-[13:31:11] [Server thread/INFO]: Fantope[/80.103.116.164:58378] logged in with entity id 62 at ([world]-881.3530000621325, 70.0, -371.102550369545)
-[13:31:12] [User Authenticator #1/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
-[13:31:22] [Server thread/INFO]: Otcova joined the game
-[13:31:22] [Server thread/INFO]: Otcova[/62.175.114.173:64073] logged in with entity id 67 at ([world_nether]-116.03295942264432, 77.0, -41.88496757736196)
-[13:31:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[13:31:42] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[13:31:42] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:42] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[13:31:42] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:42] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[13:31:42] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: WAITING
-[13:31:42] [Paper Watchdog Thread/ERROR]: 	Stack:
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1860)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1887)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2107)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace.read(VillagePlace.java:278)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.c(RegionFileSection.java:111)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.b(RegionFileSection.java:101)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.d(RegionFileSection.java:69)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace.lambda$a$3(VillagePlace.java:80)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace$$Lambda$4918/0x0000000801a17070.apply(Unknown Source)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.Streams$RangeIntSpliterator.tryAdvance(Streams.java:82)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.Spliterator$OfInt.tryAdvance(Spliterator.java:676)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$444/0x0000000800d4e730.getAsBoolean(Unknown Source)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:278)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ChunkCoordIntPair$1.tryAdvance(ChunkCoordIntPair.java:149)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorFindPosition.a(SourceFile:106)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorFindPosition.a(SourceFile:30)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Behavior.e(SourceFile:49)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorController.d(SourceFile:506)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorController.a(SourceFile:465)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.mobTick(EntityVillager.java:169)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.mobTick(EntityVillager.java:166)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.doTick(EntityInsentient.java:765)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2752)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:545)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityAgeable.movementTick(EntityAgeable.java:143)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2477)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:308)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.tick(EntityVillager.java:211)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:845)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4505/0x0000000801936cf0.accept(Unknown Source)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:884)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:530)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3134/0x00000008012020d0.run(Unknown Source)
-[13:31:42] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
-[13:31:42] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[13:31:42] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:47] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
-[13:31:47] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[13:31:47] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:47] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[13:31:47] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:47] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[13:31:47] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: WAITING
-[13:31:47] [Paper Watchdog Thread/ERROR]: 	Stack:
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1860)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1887)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2107)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace.read(VillagePlace.java:278)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.c(RegionFileSection.java:111)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.b(RegionFileSection.java:101)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.RegionFileSection.d(RegionFileSection.java:69)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace.lambda$a$3(VillagePlace.java:80)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VillagePlace$$Lambda$4918/0x0000000801a17070.apply(Unknown Source)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.Streams$RangeIntSpliterator.tryAdvance(Streams.java:82)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.Spliterator$OfInt.tryAdvance(Spliterator.java:676)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:294)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$444/0x0000000800d4e730.getAsBoolean(Unknown Source)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:278)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ChunkCoordIntPair$1.tryAdvance(ChunkCoordIntPair.java:149)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorFindPosition.a(SourceFile:106)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorFindPosition.a(SourceFile:30)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Behavior.e(SourceFile:49)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorController.d(SourceFile:506)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BehaviorController.a(SourceFile:465)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.mobTick(EntityVillager.java:169)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.mobTick(EntityVillager.java:166)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.doTick(EntityInsentient.java:765)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2752)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:545)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityAgeable.movementTick(EntityAgeable.java:143)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2477)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:308)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityVillager.tick(EntityVillager.java:211)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:845)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4505/0x0000000801936cf0.accept(Unknown Source)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:884)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:530)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3134/0x00000008012020d0.run(Unknown Source)
-[13:31:47] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
-[13:31:47] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:47] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[13:31:47] [Paper Watchdog Thread/ERROR]: ------------------------------
-[13:31:51] [Server thread/INFO]: Fantope lost connection: Disconnected
-[13:31:51] [Server thread/INFO]: Fantope left the game
-[13:31:54] [User Authenticator #1/INFO]: UUID of player Fantope is 7e46a8af-7956-386e-aa52-47ea39f43525
-[13:31:54] [Server thread/INFO]: Fantope joined the game
-[13:31:54] [Server thread/INFO]: Fantope[/80.103.116.164:58445] logged in with entity id 277 at ([world]-881.3530000621325, 70.0, -371.102550369545)
-[13:32:02] [Server thread/INFO]: Otcova lost connection: Disconnected
-[13:32:03] [Server thread/INFO]: Otcova left the game
-[13:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44779ms or 895 ticks behind
-[13:32:12] [Server thread/WARN]: Fantope moved too quickly! 6.886312357917518,-1.252203340253729,14.279932087816803
-[13:32:23] [User Authenticator #1/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
-[13:32:24] [Server thread/INFO]: Otcova joined the game
-[13:32:24] [Server thread/INFO]: Otcova[/62.175.114.173:64085] logged in with entity id 674 at ([world_nether]-116.03295942264432, 77.0, -41.88496757736196)
-[13:32:25] [User Authenticator #1/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
-[13:32:25] [Server thread/INFO]: Xiangfeng joined the game
-[13:32:26] [Server thread/INFO]: Xiangfeng[/188.26.219.179:51058] logged in with entity id 700 at ([world_nether]-131.01953423103828, 82.0, -45.435201266717776)
-[13:32:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20862ms or 417 ticks behind
-[13:34:56] [Server thread/INFO]: Otcova fell from a high place
-[13:35:10] [Server thread/WARN]: Xiangfeng moved too quickly! -12.420070644077384,-2.495200877005928,4.257380779869237
-[13:35:10] [Server thread/WARN]: Fantope moved too quickly! -11.376334146673173,0.0,-0.3908210593659547
-[13:36:43] [Server thread/INFO]: Xiangfeng tried to swim in lava
-[13:37:28] [Server thread/INFO]: Fantope issued server command: /home
-[13:37:34] [Server thread/INFO]: Fantope issued server command: /sethome
-[13:37:39] [Server thread/INFO]: Fantope issued server command: /tpa Otcova
-[13:37:45] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[13:38:07] [Server thread/INFO]: Fantope issued server command: /tpa Xiangfeng
-[13:38:10] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[13:38:12] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[13:38:23] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[13:40:44] [Server thread/INFO]: Fantope issued server command: /home
-[13:42:09] [Server thread/INFO]: Xiangfeng was slain by Wolf
-[13:43:41] [Server thread/INFO]: Xiangfeng was slain by Wolf
-[13:43:46] [Server thread/INFO]: Fantope issued server command: /sethome
-[13:44:07] [Server thread/INFO]: Fantope issued server command: /tpa Otcova
-[13:44:13] [Server thread/INFO]: Fantope issued server command: /sethome
-[13:44:14] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[13:46:09] [Server thread/INFO]: Xiangfeng issued server command: /tpa Fantope
-[13:46:19] [Server thread/INFO]: Otcova issued server command: /tpa Fantope
-[13:46:25] [Server thread/INFO]: Fantope issued server command: /home
-[13:46:36] [Server thread/INFO]: Fantope issued server command: /tpaccept
-[13:46:50] [Server thread/INFO]: Xiangfeng issued server command: /tpa Fantope
-[13:46:53] [Server thread/INFO]: Fantope issued server command: /tpaccept
-[13:47:12] [Server thread/INFO]: Otcova burned to death
-[13:47:20] [Server thread/INFO]: Otcova issued server command: /tpa Fantope
-[13:47:23] [Server thread/INFO]: Fantope issued server command: /tpaccept
-[13:48:55] [Server thread/INFO]: Otcova issued server command: /tpa Fantope
-[13:48:57] [Server thread/INFO]: Fantope issued server command: /tpaccept
-[13:49:06] [Server thread/INFO]: Otcova has made the advancement [Ol' Betsy]
-[13:49:45] [Server thread/INFO]: Xiangfeng was shot by Otcova
-[13:49:51] [Server thread/INFO]: Xiangfeng issued server command: /tpa Fantope
-[13:49:53] [Server thread/INFO]: Fantope issued server command: /tpaccept
-[13:50:32] [Server thread/INFO]: Xiangfeng has made the advancement [Ol' Betsy]
-[13:50:40] [Server thread/INFO]: Otcova was slain by Xiangfeng
-[13:50:49] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[13:50:49] [Server thread/INFO]: Fantope issued server command: /tpa Otcova
-[13:50:56] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[13:50:59] [Server thread/INFO]: Xiangfeng issued server command: /home
-[13:51:31] [Server thread/INFO]: Otcova issued server command: /HOME
-[13:52:16] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[13:52:34] [Server thread/INFO]: Fantope issued server command: /tpa Otcova
-[13:52:36] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[13:52:48] [Server thread/INFO]: Xiangfeng issued server command: /home
-[13:53:32] [Server thread/INFO]: Fantope lost connection: Disconnected
-[13:53:32] [Server thread/INFO]: Fantope left the game
-[13:53:35] [Server thread/INFO]: Otcova lost connection: Disconnected
-[13:53:35] [Server thread/INFO]: Otcova left the game
-[13:53:40] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
-[13:53:40] [Server thread/INFO]: Xiangfeng left the game
-[13:53:51] [Server thread/INFO]: Stopping server
-[13:53:51] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
-[13:53:51] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.5.2
-[13:53:51] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
-[13:53:51] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
-[13:53:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
-[13:53:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[13:53:51] [Server thread/INFO]: [LuckPerms] Closing storage...
-[13:53:52] [Server thread/INFO]: [LuckPerms] Goodbye!
-[13:53:52] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
-[13:53:52] [Server thread/INFO]: Saving players
-[13:53:52] [Server thread/INFO]: Saving worlds
-[13:53:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:53:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:53:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:53:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:53:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:53:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:53:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:54:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:54:04] [Server thread/INFO]: Flushing Chunk IO
-[13:54:04] [Server thread/INFO]: Closing Thread Pool
-[13:54:04] [Server thread/INFO]: Closing Server
+[17:50:46] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:50:49] [Worker-Main-1/INFO]: Loaded 7 recipes
+[17:51:37] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[17:51:37] [Server thread/INFO]: Loading properties
+[17:51:38] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[17:51:39] [Server thread/INFO]: Debug logging is disabled
+[17:51:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:51:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:51:39] [Server thread/INFO]: Default game type: SURVIVAL
+[17:51:39] [Server thread/INFO]: Generating keypair
+[17:51:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:51:41] [Server thread/INFO]: Using default channel type
+[17:51:54] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:52:09] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[17:52:10] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[17:52:10] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[17:52:16] [ForkJoinPool-1-worker-51/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:52:43] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[17:52:43] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.5.2
+[17:52:43] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[17:52:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:52:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[17:53:17] [Server thread/INFO]:         __    
+[17:53:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[17:53:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:53:17] [Server thread/INFO]: 
+[17:53:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:55:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:56:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:56:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:56:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 244924ms)
+[17:56:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:56:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:56:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:56:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:56:52] [Server thread/INFO]: Preparing level "world"
+[17:57:09] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:57:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:57:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:57:09] [Server thread/INFO]: View Distance: 10
+[17:57:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:57:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:57:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:57:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:57:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:57:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:57:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:57:10] [Server thread/INFO]: Max TNT Explosions: 100
+[17:57:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:57:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:57:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:57:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:57:10] [Server thread/INFO]: Mob Spawn Range: 8
+[17:57:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:57:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:57:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:57:32] [Server thread/INFO]: View Distance: 10
+[17:57:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:57:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:57:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:57:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:57:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:57:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:57:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:57:32] [Server thread/INFO]: Max TNT Explosions: 100
+[17:57:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:57:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:57:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:57:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:57:32] [Server thread/INFO]: Mob Spawn Range: 8
+[17:57:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:57:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:57:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:57:33] [Server thread/INFO]: View Distance: 10
+[17:57:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:57:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:57:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:57:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:57:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:57:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:57:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:57:33] [Server thread/INFO]: Max TNT Explosions: 100
+[17:57:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:57:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:57:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:57:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:57:33] [Server thread/INFO]: Mob Spawn Range: 8
+[17:57:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:57:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[17:57:39] [Server thread/INFO]: Time elapsed: 4565 ms
+[17:57:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:57:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[17:57:39] [Server thread/INFO]: Time elapsed: 674 ms
+[17:57:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:58:03] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[17:58:03] [Server thread/INFO]: Time elapsed: 23800 ms
+[17:58:03] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[17:58:04] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[17:58:05] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
+[17:58:05] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
+[17:58:05] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.5.2
+[17:58:05] [Thread-11/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
+[17:58:11] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
+[17:58:12] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[17:58:17] [Server thread/INFO]: Running delayed init tasks
+[17:58:17] [Server thread/INFO]: Done (401.037s)! For help, type "help"
+[17:58:18] [Server thread/INFO]: Timings Reset
+[17:58:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6947ms or 138 ticks behind
+[17:58:33] [User Authenticator #1/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[17:58:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@45bf4818[id=91814b49-ba46-3a12-a939-28f39fc53646,name=Xiangfeng,properties={},legacy=false] (/188.26.219.166:50475) lost connection: Disconnected
+[18:00:44] [User Authenticator #2/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[18:00:51] [Server thread/INFO]: Xiangfeng joined the game
+[18:00:52] [Server thread/INFO]: Xiangfeng[/188.26.219.166:50525] logged in with entity id 154 at ([world]715.4673650233561, 70.0, -312.30785372959076)
+[18:06:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5438ms or 108 ticks behind
+[18:12:13] [User Authenticator #3/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
+[18:12:14] [Server thread/INFO]: Otcova joined the game
+[18:12:14] [Server thread/INFO]: Otcova[/127.0.0.1:59226] logged in with entity id 2162 at ([world]-859.6936928331605, 76.0, -315.2771262321802)
+[18:12:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5603ms or 112 ticks behind
+[18:13:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12375ms or 247 ticks behind
+[18:21:04] [Server thread/INFO]: Otcova issued server command: /j
+[18:21:08] [Server thread/INFO]: Otcova issued server command: /home
+[18:21:24] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[18:22:32] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[18:22:35] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[18:23:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6684ms or 133 ticks behind
+[18:37:49] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[18:37:50] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[18:43:37] [Server thread/WARN]: Boat (vehicle of Xiangfeng) moved wrongly! 0.43947213803176055
+[18:46:29] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.30580740452387545
+[18:46:29] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5055188670121424
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5032928825776253
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5021018026877755
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5014644795865024
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5011234607018196
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5009409882959517
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4985958438587659
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4952987312226469
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.491629390041453
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.489665998734381
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4886154271916894
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4880532873053198
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.487752497459951
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48759155081052086
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48750543146752534
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48745935072429347
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48743469383725824
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48671224047848227
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4834301485757351
+[18:46:30] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4816739666362082
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4807342686949596
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48023145506203946
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.7652508924165886
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.40735296370803553
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5857454964384488
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5308787831677364
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.49997346216514416
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.483436641082335
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.47458811782962584
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4698534494573323
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46732002281078167
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46564889190767644
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4647547030799615
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4642762404664609
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4640202246619083
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4638832357090905
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.463809935651625
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.463770714252405
+[18:46:31] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46374972766352585
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46373849815836365
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46373248947384127
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637292743468606
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637275539962502
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637266334711967
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637261409166058
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637258773600479
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637257363365279
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637256608775715
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46372562050100896
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46372559889641707
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.7395408954298546
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.41727311479553464
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5877194395570768
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5300722193032925
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4992263411068052
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.482721326684441
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4738898225414232
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4691642607558606
+[18:46:32] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4666357068617799
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4652827280870042
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46455877612015684
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46417140385665334
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4639641286821643
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4638532198687244
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.463793874773728
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637621203969502
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46374512926286116
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637360376459583
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637311729029534
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637285698759115
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637271770479856
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4637264317734662
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46372603299187176
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46372581961213655
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.8245305910622847
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4627494064170605
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.6282751975936662
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5517727968340296
+[18:46:33] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.5108378874806476
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.48893443363976985
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4772143321974909
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4709431395890533
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46758754945858527
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.9333795895413459
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4648312988147154
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4643172253172452
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4750518039359122
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4925039726135765
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.4694762775329764
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.45469483769193175
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.46508946267522333
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 0.9357408819328157
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 1.0
+[18:46:34] [Server thread/WARN]: Horse (vehicle of Otcova) moved wrongly! 1.0
+[18:50:08] [Server thread/WARN]: Xiangfeng moved too quickly! -1.8423444315003508,0.0,10.623187767394256
+[18:50:28] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[18:50:32] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[18:55:41] [Server thread/INFO]: Xiangfeng has made the advancement [Eye Spy]
+[18:55:54] [Server thread/INFO]: Otcova has made the advancement [Eye Spy]
+[19:01:26] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
+[19:01:26] [Server thread/INFO]: Xiangfeng left the game
+[19:02:25] [User Authenticator #4/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[19:02:26] [Server thread/INFO]: Xiangfeng joined the game
+[19:02:26] [Server thread/INFO]: Xiangfeng[/188.26.219.134:50626] logged in with entity id 17628 at ([world]2234.230078553847, 38.0, 1558.374291879618)
+[19:03:10] [Server thread/INFO]: Villager EntityVillager['Farmer'/13971, uuid='cac31851-1b11-4cf4-afd7-bfc13b72ba26', l='ServerLevel[world]', x=2229.70, y=65.00, z=1467.70, cx=139, cz=91, tl=22148, v=true, d=false] died, message: 'Farmer was slain by Zombie'
+[19:05:05] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:05:07] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:05:07] [Server thread/WARN]: Otcova moved too quickly! -49.08586949437904,-20.5,15.272892272681702
+[19:05:45] [Server thread/INFO]: Villager EntityVillager['Nitwit'/13882, uuid='a050945c-710b-4a77-93c5-556d073d2ecf', l='ServerLevel[world]', x=2308.21, y=68.00, z=1552.79, cx=144, cz=97, tl=25563, v=true, d=false] died, message: 'Nitwit was slain by Zombie'
+[19:06:47] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:08:13] [Server thread/INFO]: Villager EntityVillager['Butcher'/13886, uuid='bffc4c39-e395-4ae8-b6c1-d20286a17115', l='ServerLevel[world]', x=2332.30, y=68.00, z=1484.30, cx=145, cz=92, tl=28357, v=true, d=false] died, message: 'Butcher was slain by Zombie'
+[19:10:36] [Server thread/INFO]: Otcova issued server command: /home
+[19:13:02] [Server thread/INFO]: Otcova lost connection: Disconnected
+[19:13:03] [Server thread/INFO]: Otcova left the game
+[19:19:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26567ms or 531 ticks behind
+[19:19:24] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-325 (MC: 1.16.4) ---
+[19:19:24] [Paper Watchdog Thread/ERROR]: The server has not responded for 26 seconds! Creating thread dump
+[19:19:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:19:24] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:19:26] [Server thread/WARN]: Xiangfeng moved too quickly! -0.30098118800151497,-9.0,28.63056817832785
+[19:19:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:19:27] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:19:27] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[19:19:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//com.google.common.collect.SingletonImmutableSet.contains(SingletonImmutableSet.java:63)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.TileEntityTypes.isValidBlock(SourceFile:90)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.tickBlockEntities(World.java:802)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:567)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1356)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1209)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:997)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3133/0x0000000801201c80.run(Unknown Source)
+[19:19:27] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+[19:19:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:19:27] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:19:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:20:05] [User Authenticator #5/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
+[19:20:07] [Server thread/INFO]: Otcova joined the game
+[19:20:07] [Server thread/INFO]: Otcova[/62.175.114.173:59408] logged in with entity id 20796 at ([world]-923.2025405852413, 79.0, -417.9051742071243)
+[19:31:24] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:31:26] [Server thread/INFO]: Xiangfeng issued server command: /tpa
+[19:31:30] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:32:55] [Server thread/INFO]: Otcova issued server command: /home
+[19:33:42] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:33:46] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:44:56] [Server thread/INFO]: Villager EntityVillager['Nitwit'/13888, uuid='d1a16fd9-00b9-4156-8c6f-537728f2f31d', l='ServerLevel[world]', x=2273.66, y=69.00, z=1534.66, cx=142, cz=95, tl=71923, v=true, d=false] died, message: 'Nitwit was slain by Zombie'
+[19:48:06] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:48:10] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:48:10] [Server thread/WARN]: Otcova moved too quickly! 63.19533974244359,-1.396236345303194,-0.10153900155000883
+[19:48:25] [Server thread/INFO]: Otcova was blown up by Creeper
+[19:48:32] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:48:41] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:48:44] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:49:01] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:49:06] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:49:08] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:50:23] [Server thread/INFO]: Otcova issued server command: /Home
+[19:51:34] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:51:44] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:53:07] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:53:10] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[19:54:36] [Server thread/INFO]: Otcova issued server command: /Home
+[19:57:45] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[19:57:47] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:01:40] [Server thread/INFO]: Otcova has made the advancement [The End?]
+[20:01:41] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:01:41] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[20:01:43] [Server thread/INFO]: Xiangfeng has made the advancement [The End?]
+[20:05:40] [Server thread/INFO]: Xiangfeng blew up
+[20:06:03] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:07:20] [User Authenticator #6/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[20:07:20] [Server thread/INFO]: Xiangfeng lost connection: You logged in from another location
+[20:07:20] [Server thread/INFO]: Xiangfeng left the game
+[20:07:20] [Server thread/INFO]: Xiangfeng joined the game
+[20:07:20] [Server thread/INFO]: Xiangfeng[/188.26.219.134:50717] logged in with entity id 33671 at ([world_the_end]48.95759702390713, 59.18947261797401, -7.986869047303021)
+[20:07:21] [Server thread/INFO]: Otcova fell from a high place
+[20:09:24] [Server thread/INFO]: Xiangfeng fell from a high place
+[20:09:31] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:09:34] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:09:36] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:10:19] [Server thread/INFO]: Xiangfeng was slain by Ender Dragon
+[20:10:25] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:10:28] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:10:38] [Server thread/INFO]: Xiangfeng fell from a high place
+[20:10:44] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:10:55] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:12:14] [Server thread/INFO]: Xiangfeng was killed by [Intentional Game Design]
+[20:12:14] [Server thread/INFO]: Otcova was killed by [Intentional Game Design]
+[20:12:20] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:12:39] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:12:49] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:12:51] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:12:54] [Server thread/INFO]: Xiangfeng was slain by Zombie
+[20:12:59] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:13:02] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:13:04] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:14:38] [Server thread/INFO]: Xiangfeng was killed by [Intentional Game Design]
+[20:14:43] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:14:56] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:15:00] [Server thread/INFO]: Xiangfeng was killed by Ender Dragon using magic
+[20:15:05] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:15:07] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:16:10] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:16:10] [Server thread/INFO]: Xiangfeng fell from a high place
+[20:16:19] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:16:27] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:16:33] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:16:35] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:17:18] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:17:19] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:17:22] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:18:14] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:18:19] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[20:18:21] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:19:31] [Server thread/INFO]: Otcova was killed by [Intentional Game Design]
+[20:19:40] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[20:19:43] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:20:38] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:20:42] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[20:20:52] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:21:46] [Server thread/INFO]: Xiangfeng fell from a high place
+[20:21:51] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:21:56] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:22:13] [Server thread/INFO]: Otcova was slain by Ender Dragon
+[20:22:33] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
+[20:22:37] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
+[20:22:58] [Server thread/INFO]: Xiangfeng was slain by Ender Dragon
+[20:23:04] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:23:04] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:23:08] [Server thread/INFO]: Xiangfeng was slain by Ender Dragon
+[20:23:29] [Server thread/INFO]: Otcova has made the advancement [Free the End]
+[20:23:37] [Server thread/WARN]: Xiangfeng was kicked due to keepalive timeout!
+[20:23:37] [Server thread/INFO]: Xiangfeng lost connection: Timed out
+[20:23:37] [Server thread/INFO]: Xiangfeng left the game
+[20:23:39] [User Authenticator #7/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
+[20:23:40] [Server thread/INFO]: Xiangfeng joined the game
+[20:23:40] [Server thread/INFO]: Xiangfeng[/188.26.219.134:50767] logged in with entity id 38439 at ([world_the_end]7.5491009515198035, 66.0, -2.187242478568898)
+[20:23:43] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:23:56] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:25:38] [Server thread/INFO]: Xiangfeng was killed by [Intentional Game Design]
+[20:25:38] [Server thread/INFO]: Otcova was killed by [Intentional Game Design]
+[20:25:44] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
+[20:25:46] [Server thread/INFO]: Otcova issued server command: /tpaccept
+[20:28:33] [Server thread/INFO]: Otcova has reached the goal [The Next Generation]
+[20:28:47] [Server thread/INFO]: Xiangfeng has reached the goal [The Next Generation]
+[20:29:10] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
+[20:29:11] [Server thread/INFO]: Xiangfeng left the game
+[20:29:36] [Server thread/INFO]: Otcova lost connection: Disconnected
+[20:29:36] [Server thread/INFO]: Otcova left the game
+[20:29:42] [Server thread/INFO]: Stopping server
+[20:29:42] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
+[20:29:44] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.5.2
+[20:29:44] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
+[20:29:44] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
+[20:29:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
+[20:29:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:29:44] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:29:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:29:50] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
+[20:29:50] [Server thread/INFO]: Saving players
+[20:29:50] [Server thread/INFO]: Saving worlds
+[20:29:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:30:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:30:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:30:21] [Server thread/INFO]: Flushing Chunk IO
+[20:30:21] [Server thread/INFO]: Closing Thread Pool
+[20:30:21] [Server thread/INFO]: Closing Server
