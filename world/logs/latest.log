@@ -1,339 +1,184 @@
-[19:08:46] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[19:08:49] [Worker-Main-1/INFO]: Loaded 7 recipes
-[19:08:53] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[19:08:53] [Server thread/INFO]: Loading properties
-[19:08:53] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[19:08:53] [Server thread/INFO]: Debug logging is disabled
-[19:08:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:08:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:08:53] [Server thread/INFO]: Default game type: SURVIVAL
-[19:08:53] [Server thread/INFO]: Generating keypair
-[19:08:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:08:54] [Server thread/INFO]: Using default channel type
-[19:08:55] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:09:03] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
-[19:09:03] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
-[19:09:03] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
-[19:09:04] [ForkJoinPool-1-worker-31/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
-[19:09:05] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
-[19:09:05] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.5.2
-[19:09:05] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
-[19:09:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:09:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
-[19:09:05] [Server thread/INFO]:         __    
-[19:09:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
-[19:09:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:09:05] [Server thread/INFO]: 
-[19:09:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:09:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:09:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:09:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:09:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5869ms)
-[19:09:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:09:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:09:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:09:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:09:11] [Server thread/INFO]: Preparing level "world"
-[19:09:11] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:09:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:09:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:09:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:09:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:09:11] [Server thread/INFO]: Max TNT Explosions: 100
-[19:09:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:09:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:09:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:09:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:09:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:09:11] [Server thread/INFO]: View Distance: 10
-[19:09:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:09:11] [Server thread/INFO]: Mob Spawn Range: 8
-[19:09:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:09:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:09:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:09:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:09:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:09:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:09:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:09:11] [Server thread/INFO]: Max TNT Explosions: 100
-[19:09:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:09:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:09:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:09:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:09:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:09:11] [Server thread/INFO]: View Distance: 10
-[19:09:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:09:11] [Server thread/INFO]: Mob Spawn Range: 8
-[19:09:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:09:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:09:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:09:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:09:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[19:09:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:09:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[19:09:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:09:11] [Server thread/INFO]: Max TNT Explosions: 100
-[19:09:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:09:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:09:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:09:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:09:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:09:11] [Server thread/INFO]: View Distance: 10
-[19:09:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:09:11] [Server thread/INFO]: Mob Spawn Range: 8
-[19:09:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:09:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:09:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:09:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[19:09:12] [Server thread/INFO]: Time elapsed: 820 ms
-[19:09:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:09:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[19:09:12] [Server thread/INFO]: Time elapsed: 200 ms
-[19:09:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:09:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[19:09:12] [Server thread/INFO]: Time elapsed: 111 ms
-[19:09:12] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
-[19:09:12] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
-[19:09:12] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
-[19:09:12] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
-[19:09:13] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
-[19:09:13] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
-[19:09:13] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
-[19:09:13] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.5.2
-[19:09:13] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
-[19:09:13] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
-[19:09:14] [Thread-13/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
-[19:09:14] [Server thread/INFO]: Running delayed init tasks
-[19:09:14] [Server thread/INFO]: Done (20.901s)! For help, type "help"
-[19:09:14] [Server thread/INFO]: Timings Reset
-[19:09:21] [User Authenticator #1/INFO]: UUID of player Otcova is 3075f068-5e15-3262-906f-a1d70930ab4a
-[19:09:28] [Server thread/INFO]: Otcova joined the game
-[19:09:28] [Server thread/INFO]: Otcova[/127.0.0.1:58979] logged in with entity id 253 at ([world]2197.5, 36.0, 1503.5)
-[19:09:49] [User Authenticator #1/INFO]: UUID of player Xiangfeng is 91814b49-ba46-3a12-a939-28f39fc53646
-[19:09:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10175ms or 203 ticks behind
-[19:09:56] [Server thread/INFO]: Xiangfeng joined the game
-[19:09:56] [Server thread/INFO]: Xiangfeng[/188.26.219.44:50838] logged in with entity id 410 at ([world]2256.052471934445, 68.5625, 1511.001695165045)
-[19:10:40] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[19:10:40] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[19:10:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25725ms or 514 ticks behind
-[19:11:55] [Server thread/INFO]: Xiangfeng was burnt to a crisp whilst fighting Zombie
-[19:15:03] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
-[19:15:05] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[19:26:36] [Server thread/INFO]: Otcova has made the advancement [Remote Getaway]
-[19:26:38] [Server thread/INFO]: Xiangfeng has made the advancement [Remote Getaway]
-[19:27:01] [Async Chat Thread - #0/INFO]: <Xiangfeng> -586 -824
-[19:30:48] [Server thread/INFO]: Xiangfeng has made the advancement [The City at the End of the Game]
-[19:31:40] [Server thread/WARN]: Xiangfeng moved too quickly! -5.643976006035587,-12.0,0.8845135939222928
-[19:31:58] [Server thread/INFO]: Otcova has made the advancement [The City at the End of the Game]
-[19:32:48] [Server thread/INFO]: Otcova was slain by Shulker
-[19:33:22] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:33:24] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:34:25] [Server thread/WARN]: Otcova moved too quickly! -4.381542113726255,-43.0,-1.0598599858035413
-[19:34:25] [Server thread/WARN]: Otcova moved too quickly! -4.381542113726255,-43.0,-1.0598599858035413
-[19:41:24] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:41:36] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:41:36] [Server thread/WARN]: Otcova moved too quickly! -1.3691596918159803,76.5,-20.391619718627226
-[19:43:04] [Server thread/INFO]: Otcova has made the advancement [Local Brewery]
-[19:43:34] [Server thread/INFO]: Otcova has reached the goal [Sky's the Limit]
-[19:45:09] [Server thread/WARN]: Otcova moved too quickly! -7.737864099379522,-88.0,-1.9265269338943654
-[19:45:13] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:45:25] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:45:25] [Server thread/WARN]: Otcova moved too quickly! -1.69011285354361,75.62428526629216,-53.54295115564764
-[19:45:43] [Server thread/INFO]: Xiangfeng has made the advancement [Cover Me With Diamonds]
-[19:49:53] [Server thread/INFO]: Otcova fell from a high place
-[19:49:58] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:50:02] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:51:08] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:51:12] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:51:12] [Server thread/WARN]: Otcova moved too quickly! -1.9356613699408172,77.0,-25.792470654100953
-[19:52:00] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:52:05] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:52:05] [Server thread/WARN]: Otcova moved too quickly! -24.726764837878818,22.0,-8.109260801696337
-[19:53:42] [Server thread/WARN]: Otcova moved too quickly! 4.196416510647509,-92.0,-2.1849104501054626
-[19:53:42] [Server thread/WARN]: Otcova moved too quickly! 4.196416510647509,-92.0,-2.1849104501054626
-[19:53:48] [Server thread/WARN]: Xiangfeng moved too quickly! -6.533562711335094,-36.0,2.6911689897740416
-[19:54:34] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[19:54:45] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[19:54:45] [Server thread/WARN]: Otcova moved too quickly! -5.086444581892238,6.0,-10.29843123288856
-[19:57:06] [Server thread/WARN]: Xiangfeng moved too quickly! 0.06817850301547423,-22.0,-7.603583220947712
-[20:00:05] [Server thread/INFO]: Otcova was slain by Enderman
-[20:00:13] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:00:15] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:01:08] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:01:11] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:01:11] [Server thread/WARN]: Otcova moved too quickly! -10.76423498885788,-2.0,-108.91030628903468
-[20:03:21] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
-[20:03:30] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[20:06:06] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:06:15] [Server thread/INFO]: Xiangfeng issued server command: /tpa Otcova
-[20:06:17] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[20:06:42] [Server thread/WARN]: Otcova moved too quickly! 6.337655773737879,0.0,7.915296925069924
-[20:10:31] [Server thread/WARN]: Otcova moved too quickly! -7.032095107658961,-3.0,-7.816012966070502
-[20:14:06] [Server thread/WARN]: Otcova moved too quickly! -5.05174628747227,-22.0,-1.2185075038901232
-[20:14:06] [Server thread/WARN]: Otcova moved too quickly! -5.05174628747227,-22.0,-1.2185075038901232
-[20:14:18] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:14:20] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:14:20] [Server thread/WARN]: Otcova moved too quickly! 1.5296208793329242,16.540547673628964,7.886115664255158
-[20:17:56] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:18:06] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:18:06] [Server thread/WARN]: Otcova moved too quickly! -0.922673527230927,-6.0,-43.513144627482234
-[20:18:46] [Server thread/WARN]: Otcova moved too quickly! 4.247542959448765,-60.0,-2.0008825914128465
-[20:18:53] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:18:57] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:18:57] [Server thread/WARN]: Otcova moved too quickly! -25.658483171022453,43.0,6.922133563547959
-[20:22:47] [Server thread/INFO]: Otcova fell from a high place
-[20:22:52] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:23:00] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:24:32] [Server thread/INFO]: Otcova was slain by Shulker
-[20:25:03] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:25:09] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:27:09] [Server thread/INFO]: Otcova was slain by Shulker
-[20:27:29] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:27:31] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:27:43] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:27:46] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:27:46] [Server thread/WARN]: Otcova moved too quickly! 2.7044415370896786,10.296270206725197,20.56091371861976
-[20:28:28] [Server thread/INFO]: Otcova issued server command: /gamemode spectator
-[20:28:28] [Server thread/INFO]: [Otcova: Set own game mode to Spectator Mode]
-[20:29:12] [Server thread/INFO]: Otcova issued server command: /gamemode survival
-[20:29:12] [Server thread/INFO]: [Otcova: Set own game mode to Survival Mode]
-[20:29:21] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:elytra
-[20:29:21] [Server thread/INFO]: [Otcova: Gave 1 [Elytra] to Otcova]
-[20:29:33] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:ender_pearl 5
-[20:29:33] [Server thread/INFO]: [Otcova: Gave 5 [Ender Pearl] to Otcova]
-[20:30:04] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_axe
-[20:30:04] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Axe] to Otcova]
-[20:31:00] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:iron_leggings
-[20:31:00] [Server thread/INFO]: [Otcova: Gave 1 [Iron Leggings] to Otcova]
-[20:31:38] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:chorus_fruit 20
-[20:31:38] [Server thread/INFO]: [Otcova: Gave 20 [Chorus Fruit] to Otcova]
-[20:31:46] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:bread 10
-[20:31:46] [Server thread/INFO]: [Otcova: Gave 10 [Bread] to Otcova]
-[20:32:05] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_helmet
-[20:32:05] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Helmet] to Otcova]
-[20:32:59] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_helmet{enchantments:[{id:protection, level:4}]}
-[20:32:59] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Helmet] to Otcova]
-[20:33:25] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_helmet{enchantments:[{id:protection, lvl:4}]}
-[20:33:25] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Helmet] to Otcova]
-[20:33:40] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:flint_and_steel
-[20:33:40] [Server thread/INFO]: [Otcova: Gave 1 [Flint and Steel] to Otcova]
-[20:34:57] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_helmet
-[20:34:57] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Helmet] to Otcova]
-[20:35:09] [Server thread/INFO]: Otcova issued server command: /enchant Otcova minecraft:protection 4
-[20:35:09] [Server thread/INFO]: [Otcova: Applied enchantment Protection IV to Otcova's item]
-[20:35:44] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_boots
-[20:35:44] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Boots] to Otcova]
-[20:35:51] [Server thread/INFO]: Otcova issued server command: /enchant Otcova minecraft:protection 1
-[20:35:51] [Server thread/INFO]: [Otcova: Applied enchantment Protection I to Otcova's item]
-[20:36:15] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:36:18] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:36:33] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:water_bucket
-[20:36:33] [Server thread/INFO]: [Otcova: Gave 1 [Water Bucket] to Otcova]
-[20:38:05] [Server thread/INFO]: Xiangfeng has reached the goal [Sky's the Limit]
-[20:38:26] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:38:28] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:41:32] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:41:41] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:42:43] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:42:46] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:42:46] [Server thread/WARN]: Otcova moved too quickly! 82.49798373402962,1.0,126.52065477305041
-[20:43:03] [Server thread/INFO]: Otcova was slain by Enderman
-[20:43:08] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:43:13] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:45:08] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[20:46:24] [Server thread/INFO]: Otcova issued server command: /tpaccept
-[20:46:26] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:46:37] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:48:42] [Server thread/INFO]: Otcova issued server command: /give Otcova minecraft:diamond_pickaxe
-[20:48:42] [Server thread/INFO]: [Otcova: Gave 1 [Diamond Pickaxe] to Otcova]
-[20:50:31] [Server thread/WARN]: Otcova moved too quickly! 3.525797483553447,-24.0,-7.353783135723461
-[20:50:31] [Server thread/WARN]: Otcova moved too quickly! 3.525797483553447,-24.0,-7.353783135723461
-[20:52:04] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:52:06] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:53:11] [Server thread/INFO]: Otcova issued server command: /tpa Xiangfeng
-[20:53:14] [Server thread/INFO]: Xiangfeng issued server command: /tpaccept
-[20:53:14] [Server thread/WARN]: Otcova moved too quickly! 6.36508875032473,0.0,131.6381425975976
-[21:02:21] [Server thread/WARN]: Xiangfeng moved too quickly! 7.130389406933187,-1.0,7.440242887872261
-[21:04:32] [Server thread/INFO]: Otcova burned to death
-[21:04:42] [Server thread/INFO]: Otcova lost connection: Disconnected
-[21:04:42] [Server thread/INFO]: Otcova left the game
-[21:04:55] [Server thread/INFO]: Xiangfeng lost connection: Disconnected
-[21:04:55] [Server thread/INFO]: Xiangfeng left the game
-[21:34:46] [Server thread/INFO]: Stopping the server
-[21:34:46] [Server thread/INFO]: Stopping server
-[21:34:46] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
-[21:34:46] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.5.2
-[21:34:46] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
-[21:34:46] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
-[21:34:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
-[21:34:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:34:46] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:34:47] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:34:47] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
-[21:34:47] [Server thread/INFO]: Saving players
-[21:34:47] [Server thread/INFO]: Saving worlds
-[21:34:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:34:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:34:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:34:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:34:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:34:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:34:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:34:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:34:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:34:49] [Server thread/INFO]: Flushing Chunk IO
-[21:34:49] [Server thread/INFO]: Closing Thread Pool
-[21:34:49] [Server thread/INFO]: Closing Server
+[11:00:12] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[11:00:15] [Worker-Main-1/INFO]: Loaded 7 recipes
+[11:00:20] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[11:00:20] [Server thread/INFO]: Loading properties
+[11:00:20] [Server thread/INFO]: This server is running Paper version git-Paper-325 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[11:00:20] [Server thread/INFO]: Debug logging is disabled
+[11:00:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:00:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:00:20] [Server thread/INFO]: Default game type: SURVIVAL
+[11:00:20] [Server thread/INFO]: Generating keypair
+[11:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:00:21] [Server thread/INFO]: Using default channel type
+[11:00:22] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:00:33] [Server thread/WARN]: Legacy plugin PixelTpa vbeta 0.1 does not specify an api-version.
+[11:00:33] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.4
+[11:00:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[11:00:33] [ForkJoinPool-1-worker-51/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[11:00:34] [Server thread/INFO]: [PixelTpa] Loading PixelTpa vbeta 0.1
+[11:00:34] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.5.2
+[11:00:34] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.2.9
+[11:00:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:00:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[11:00:34] [Server thread/INFO]:         __    
+[11:00:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[11:00:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:00:34] [Server thread/INFO]: 
+[11:00:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:00:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:00:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:00:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:00:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3674ms)
+[11:00:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:00:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:00:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:00:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:00:37] [Server thread/INFO]: Preparing level "world"
+[11:00:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:00:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:38] [Server thread/INFO]: View Distance: 10
+[11:00:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:38] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:00:38] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:00:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:38] [Server thread/INFO]: View Distance: 10
+[11:00:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:38] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:00:38] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:00:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:00:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:00:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:00:38] [Server thread/INFO]: View Distance: 10
+[11:00:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:00:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:00:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:00:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:00:38] [Server thread/INFO]: Mob Spawn Range: 8
+[11:00:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:00:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:00:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:00:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:00:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:00:38] [Server thread/INFO]: Max TNT Explosions: 100
+[11:00:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:00:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:00:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[11:00:39] [Server thread/INFO]: Time elapsed: 432 ms
+[11:00:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:00:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[11:00:39] [Server thread/INFO]: Time elapsed: 137 ms
+[11:00:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:00:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[11:00:39] [Server thread/INFO]: Time elapsed: 150 ms
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.4
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: silent
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/silent.yml!
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'absolute' which is set to 1 players required
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[11:00:39] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[11:00:39] [Server thread/INFO]: [PixelTpa] Enabling PixelTpa vbeta 0.1*
+[11:00:39] [Server thread/INFO]: [PixelTpa] Successfully enabled PixelTpa By VINUK beta 0.1!
+[11:00:39] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.5.2
+[11:00:39] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.2.9
+[11:00:39] [Server thread/INFO]: [SetHomes] Hooked into LuckPerms!
+[11:00:39] [Thread-12/INFO]: [BetterSleeping3] You are using the latest version: 3.0.4
+[11:00:39] [Server thread/INFO]: Running delayed init tasks
+[11:00:39] [Server thread/INFO]: Done (19.524s)! For help, type "help"
+[11:00:39] [Server thread/INFO]: Stopping server
+[11:00:39] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.2.9
+[11:00:39] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.5.2
+[11:00:39] [Server thread/INFO]: [PixelTpa] Disabling PixelTpa vbeta 0.1
+[11:00:39] [Server thread/INFO]: [PixelTpa]  Successfully disabled PixelTpa By VINUK beta 0.1!
+[11:00:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.35
+[11:00:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:00:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:00:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:00:40] [Server thread/INFO]: [BetterSleeping3] Disabling BetterSleeping3 v3.0.4
+[11:00:40] [Server thread/INFO]: Saving players
+[11:00:40] [Server thread/INFO]: Saving worlds
+[11:00:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:00:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:00:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:00:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:00:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:00:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:01:01] [Server thread/INFO]: Flushing Chunk IO
+[11:01:01] [Server thread/INFO]: Closing Thread Pool
+[11:01:01] [Server thread/INFO]: Closing Server
