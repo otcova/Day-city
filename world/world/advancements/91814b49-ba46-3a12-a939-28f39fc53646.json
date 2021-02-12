@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2021-02-12 18:30:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2020-12-18 08:58:02 +0100"
@@ -922,6 +928,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2021-02-12 18:49:06 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2020-12-15 18:26:53 +0100"
@@ -973,6 +985,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2021-01-11 18:16:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-02-12 18:30:01 +0100"
     },
     "done": true
   },
@@ -1190,14 +1208,19 @@
     "criteria": {
       "minecraft:forest": "2020-12-15 16:11:40 +0100",
       "minecraft:mountains": "2020-12-18 10:00:47 +0100",
+      "minecraft:taiga": "2021-02-12 18:40:47 +0100",
       "minecraft:desert_hills": "2020-12-16 18:05:39 +0100",
       "minecraft:desert": "2020-12-16 18:05:22 +0100",
       "minecraft:birch_forest": "2020-12-16 17:41:48 +0100",
+      "minecraft:warm_ocean": "2021-02-12 18:48:50 +0100",
       "minecraft:deep_lukewarm_ocean": "2021-01-11 18:34:02 +0100",
       "minecraft:savanna_plateau": "2020-12-15 20:19:47 +0100",
       "minecraft:beach": "2020-12-17 17:44:10 +0100",
+      "minecraft:dark_forest": "2021-02-12 18:40:56 +0100",
       "minecraft:river": "2020-12-15 18:50:54 +0100",
       "minecraft:lukewarm_ocean": "2021-01-11 18:34:05 +0100",
+      "minecraft:birch_forest_hills": "2021-02-12 18:41:09 +0100",
+      "minecraft:wooded_mountains": "2021-02-12 18:42:21 +0100",
       "minecraft:wooded_hills": "2020-12-18 09:02:55 +0100",
       "minecraft:swamp": "2020-12-15 16:12:24 +0100",
       "minecraft:savanna": "2020-12-15 18:55:52 +0100",
@@ -1536,6 +1559,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2021-02-12 18:30:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2020-12-16 16:14:20 +0100"
@@ -1683,6 +1712,12 @@
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2020-12-15 16:14:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-02-12 18:25:01 +0100"
     },
     "done": true
   },
@@ -2992,6 +3027,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-12-15 20:13:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2021-02-12 18:25:01 +0100"
     },
     "done": true
   },
